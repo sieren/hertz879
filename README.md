@@ -1,5 +1,6 @@
 ![Travis CI](https://travis-ci.org/sieren/hertz879.svg?branch=master "Travis CI
 Status") 
+[![codecov.io](https://codecov.io/gh/sieren/hertz879/branch/master/graphs/badge.svg)](https://codecov.io/gh/sieren/hertz879/branch/master)
 [![Platform](https://img.shields.io/cocoapods/p/NotificationBannerSwift.svg?style=flat)](http://cocoapods.org/pods/NotificationBannerSwift)
 <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/swift-4.0-4BC51D.svg?style=flat" alt="Language: Swift" /></a>
 [![License](https://img.shields.io/github/license/sieren/midimittr.svg?style=flat)](http://cocoapods.org/pods/NotificationBannerSwift)
