@@ -134,15 +134,7 @@
 			children = (
 				690A1983204800AB004D2734 /* AppDelegate.swift */,
 				690A19A5204800D7004D2734 /* AppContext.swift */,
-				690A19A7204800F4004D2734 /* StreamController.swift */,
-				693148042049DB630094595C /* FavouriteTrack.swift */,
-				693148072049DD690094595C /* UserDefaultUtilities.swift */,
-				693148002049C9B50094595C /* FavouriteTracksController.swift */,
-				690A19AC2048068F004D2734 /* RemoteUrls.swift */,
-				690A19B420480F58004D2734 /* ProgramController.swift */,
-				693147E7204972C70094595C /* PlaylistController.swift */,
-				693147E520496D880094595C /* ProgramData.swift */,
-				690A19AE20480A93004D2734 /* WebRequestManager.swift */,
+				6931480C2049E6FE0094595C /* DataControllers */,
 				690A1985204800AB004D2734 /* FirstViewController.swift */,
 				690A1987204800AB004D2734 /* SecondViewController.swift */,
 				690A1989204800AB004D2734 /* Main.storyboard */,
@@ -193,6 +185,22 @@
 				693147F5204976120094595C /* XSPFTrack.m */,
 			);
 			path = XSPFKit;
+			sourceTree = "<group>";
+		};
+		6931480C2049E6FE0094595C /* DataControllers */ = {
+			isa = PBXGroup;
+			children = (
+				693148042049DB630094595C /* FavouriteTrack.swift */,
+				693148002049C9B50094595C /* FavouriteTracksController.swift */,
+				693147E7204972C70094595C /* PlaylistController.swift */,
+				690A19B420480F58004D2734 /* ProgramController.swift */,
+				693147E520496D880094595C /* ProgramData.swift */,
+				690A19AC2048068F004D2734 /* RemoteUrls.swift */,
+				690A19A7204800F4004D2734 /* StreamController.swift */,
+				693148072049DD690094595C /* UserDefaultUtilities.swift */,
+				690A19AE20480A93004D2734 /* WebRequestManager.swift */,
+			);
+			path = DataControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
