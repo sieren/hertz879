@@ -1,0 +1,567 @@
+{
+    "1": [
+        {
+            "name": "TestName",
+            "time": "07:30 - 08:30",
+            "desc": "TestDescription",
+            "url": "http://www.hertz879.de/"
+        },
+ 	{
+            "name": "InTakt Plattenkritik (Wdh. - 2. Montag)",
+            "time": "07:30 - 08:30",
+            "desc": "Hertz 87.9 diskutiert Musik. Drei Menschen setzen sich ins Studio, hören ein aktuell wichtiges Album und schildern ihre Eindrücke. Heraus kommt eine packende Diskussion, die informiert, polarisiert und emotional mitreißt.",
+            "url": "http://www.hertz879.de/ressort/intakt-plattenkritik/"
+        },
+ 	{
+            "name": "Nerdtalk (Wdh. - 3. Montag)",
+            "time": "07:30 - 08:30",
+            "desc": "In unserem Nachmittagsmagazin lassen wir unsere Stundengläser etwas langsamer laufen. In der Kaffeepause dreht sich alles um Entspannung, Gesundheit, Kreativität und Freizeit.",
+            "url": "http://www.hertz879.de/ressort/hertzlevel/"
+        },
+ 	{
+            "name": "Hand aufs Hertz (Wdh. - 4. Montag)",
+            "time": "07:30 - 08:30",
+            "desc": "Der Talk rund um Politik und Gesellschaft. Jeden dritten Donnerstag im Monat um 18h.",
+            "url":  "http://www.hertz879.de/ressort/sonstiges/"
+        },
+	 {
+            "name": "Der Morgen",
+            "time": "09:00 - 11:00",
+            "desc": "Zwischen Morgenmuffeln und angebrannten Brötchen gibt es einen Lichtblick am Morgen: Der Morgen. Wir liefern euch den perfekten Start in der Tag mit bunten Themen und Musik jenseits des Dudelfunks.",
+            "url": "http://www.hertz879.de/ressort/der-morgen/"
+        },
+        {
+            "name": "Campus & Karriere",
+            "time": "14:30 - 15:00",
+            "desc": "Campus & Karriere auf Deutschlandfunk",
+            "url": "http://www.dradio.de/dlf/sendungen/campus/"
+        },
+	{
+            "name": "HertzRasen Nachgetreten (1.Montag)",
+            "time": "15:00 - 16:00",
+            "desc": "Hertz 87.9 diskutiert Sport. Drei Menschen besprechen die aktuellen Enwicklungen rund um die Welt des Sports!",
+            "url": "http://www.hertz879.de/ressort/intakt-plattenkritik/"
+        },
+        {
+            "name": "HertzLevel (1.+3. Montag)",
+            "time": "18:00 - 19:00",
+            "desc": "Die Sendung für Gamer und Gesellschaftsspieler ist da! \n Ob analog oder digital – bei HertzLevel bekommt ihr alle Neuigkeiten und aktuellen Themen aus der Games-Kultur. Wir testen für euch Computer-, Video- und Gesellschaftspiele und halten euch über alle wichtigen Aktivitäten und Hintergründe aus der Spielewelt auf dem Laufenden. Gelevelt wird jeden ersten Montag im Monat um 18 Uhr.",
+            "url": "http://www.hertz879.de/ressort/hertzlevel/"
+        },
+        {
+            "name": "Hertzkultur (2.+4. Montag)",
+            "time": "18:00 - 19:00",
+            "desc": "Hertzkultur – Die Kunst und Kultursendung auf Hertz 87,9. Hier erfahrt ihr Neuigkeiten aus der Bielefelder Kulturszene. Wir laden Gäste ins Studio ein, berichten von den neuesten Ausstellungen und Veranstaltungen und stellen euch die besten Bücher, Hörbücher und Filme vor. Hertzkultur – jeden zweiten Montag im Monat um 18 Uhr",
+            "url": "http://www.hertz879.de/ressort/hertzkultur-kunst-kultur/"
+        },
+        {
+            "name": "Kunststoff",
+            "time": "20:00 - 21:00",
+            "desc": "Wir tauchen für eine Stunde ein in ein Thema aus der Welt von Kunst und Kultur – egal ob aus Bielefeld oder aus aller Welt, ob von der großen Bühne, von der Straße oder aus der Uni, denn Kunst ist überall. ",
+            "url": "http://www.hertz879.de/ressort/kunststoff/"
+        },
+        {
+            "name": "Hard Attack",
+            "time": "22:00 - 23:00",
+            "desc": "Eine Stunde lang hartes Zeug. Bei Hard Attack erwartet euch alles aus den Bereichen Rock, Hardrock und Metal.",
+            "url": "http://www.hertz879.de/ressort/hard-attack/"
+        }
+    ],
+    "2": [
+        {
+            "name": "HertzInternational (Wdh., alle 2. Wochen)",
+            "time": "07:30 - 08:30",
+            "desc": "In unserer Magazinsendung „Hertz International“ reisen wir mit euch durch die Welt und erkunden internationales Leben vor unserer Haustür.",
+            "url": "http://www.hertz879.de/ressort/hertz-international/"
+        },
+	{
+            "name": "Der Morgen",
+            "time": "09:00 - 11:00",
+            "desc": "Zwischen Morgenmuffeln und angebrannten Brötchen gibt es einen Lichtblick am Morgen: Der Morgen. Wir liefern euch den perfekten Start in der Tag mit bunten Themen und Musik jenseits des Dudelfunks.",
+            "url": "http://www.hertz879.de/ressort/der-morgen/"
+        },
+        {
+            "name": "Campus & Karriere",
+            "time": "14:30 - 15:00",
+            "desc": "Campus & Karriere auf Deutschlandfunk",
+            "url": "http://www.dradio.de/dlf/sendungen/campus/"
+        },
+        {
+            "name": "Intakt Neuheiten",
+            "time": "18:00 - 19:00",
+            "desc": "InTakt – Das Musikneuheitenmagazin auf Hertz 87.9. Eine Stunde – die neuesten Scheiben – immer Dienstags um 18 Uhr",
+            "url": "http://www.hertz879.de/ressort/intakt-neuheiten/"
+        },
+        {
+            "name": "Mixtape",
+            "time": "20:00 - 21:00",
+            "desc": "Mixtape – Analog ist besser. Viele erinnern sich bestimmt an die Zeiten, in denen Musik als Zeichen von Zuneigung verschenkt wurde. Denn ein Mixtape kann mehr sagen als 1000 Bilder. Heutzutage in der digitalen Musikwelt ist das beschaffen und weitergeben von Musik zwar einfacher aber auch weniger persönlich. Wir wollen das ändern! Deswegen schenken wir euch jeden Dienstag ab 20 Uhr ein 60-minütiges Mixtape.",
+            "url": "http://www.hertz879.de/ressort/mixtape/"
+        },
+        {
+            "name": "E:clipse – Zielgruppenmusik",
+            "time": "22:00 - 23:00",
+            "desc": "Die „düstere“ Schiene und die Anhänger von Elektro haben es leider besonders schwer in der deutschen Radiolandschaft. Nicht bei uns! Darum wird es Dienstag Abend richtig finster und krachig auf HERTZ 87,9. EBM, Industrial, Darkwave, Synthie- , Future- Avantgarde Pop und Gothic füllen die 60 Minuten der alternativen Zielgruppenmusik. Die alternative Musiklandschaft bietet eine reichhaltige, nicht trendorientierte Musik! E:clipse präsentiert Euch wöchentlich die Neuheiten aus der Sparte, aber auch die Dancefloorhits der schwarzen Szene sowie Liveaufnahmen, etwas vergessene Stücke und seltene Remixe.",
+            "url": "http://www.hertz879.de/ressort/eclipse/"
+        }
+    ],
+    "3": [
+        {
+            "name": "Der Hörsaal",
+            "time": "00:00 - 01:00",
+            "desc": "Du hast Lust auf Wissen und Unterhaltung, aber keine Lust dicke Wälzer zu lesen? Dann haben wir genau das Richtige für Dich: Hertz 87.9 sendet regelmäßig Vorträge und Diskussionsrunden, die zuvor in und um die Universität Bielefeld herum aufgezeichnet wurden. Der Hörsaal bietet Dir zum Beispiel wissenschaftliche Vorträge (unter anderem vom Forum Offene Wissenschaft), hochschulpolitische Diskussionsrunden, Podiumsdiskussionen oder gesellschaftspolitische Vorträge.",
+            "url": "http://www.hertz879.de/ressort/der-hoersaal/"
+        },
+        {
+            "name": "HertzRasen Nachgetreten Wiederholung (1.Montag)",
+            "time": "07:30 - 08:30",
+            "desc": "Hertz 87.9 diskutiert Sport. Drei Menschen besprechen die aktuellen Enwicklungen rund um die Welt des Sports!",
+            "url": "http://www.hertz879.de/ressort/intakt-plattenkritik/"
+        },
+	{
+            "name": "Der Morgen",
+            "time": "09:00 - 11:00",
+            "desc": "Zwischen Morgenmuffeln und angebrannten Brötchen gibt es einen Lichtblick am Morgen: Der Morgen. Wir liefern euch den perfekten Start in der Tag mit bunten Themen und Musik jenseits des Dudelfunks.",
+            "url": "http://www.hertz879.de/ressort/der-morgen/"
+        },
+        {
+            "name": "Campus & Karriere",
+            "time": "14:30 - 15:00",
+            "desc": "Campus & Karriere auf Deutschlandfunk",
+            "url": "http://www.dradio.de/dlf/sendungen/campus/"
+        },
+        {
+            "name": "ImPuls – Der Science Talk (monatlich)",
+            "time": "16:00 - 17:00",
+            "desc": "Hertz Diskutiert Wissenschaft. Ob humanoide Roboter, wissenschaftliche Erfindungen dank Star Trek oder Gentechnik. Drei Menschen reden über aktuelle wissenschaftliche Themen.",
+            "url": "http://www.hertz879.de/ressort/impuls/"
+        },
+	 {
+            "name": "ImPuls – Wissenschaftsmagazin (Alle 2. Wochen)",
+            "time": "18:00 - 19:00",
+            "desc": "Die physikalische Größe Impuls beschreibt die Bewegung der Masse, die ein Körper enthält. So wie die Geschwindigkeit dieser Bewegung ist der Impuls eine Vektorgröße, hat also neben einem Betrag auch eine Richtung (die der Bewegung selbst). Der Impuls entspricht dem, was umgangssprachlich unter der Wucht verstanden wird, die jemanden zur Seite stößt, oder unter dem Schwung, der ein Auto aus der Kurve trägt.",
+            "url": "http://www.hertz879.de/ressort/impuls/"
+        },
+	{
+            "name": "HertzInternational (Alle 2. Wochen)",
+            "time": "18:00 - 19:00",
+            "desc": "In unserer Magazinsendung „Hertz International“ reisen wir mit euch durch die Welt und erkunden internationales Leben vor unserer Haustür.",
+            "url": "http://www.hertz879.de/ressort/hertz-international/"
+        },
+        {
+            "name": "Jukebox",
+            "time": "20:00 - 21:00",
+            "desc": "Die Hertz 87.9 Jukebox ist eine Musiksendung, in der Ihr ausgewählte Stücke aus unserer Rotation hören könnt. Es werden auf jeden Fall die Songs gespielt, die in der laufenden Woche neu in unsere 1. Rotationsstufe aufgenommen worden sind. Die Hertz 87.9 Jukebox läuftjeden Mittwoch von 20-21uhr. Infos zu unserer Rotation findet Ihrhier!",
+            "url": "http://www.hertz879.de/ressort/jukebox/"
+        },
+        {
+            "name": "L’Etat et Moi",
+            "time": "22:00 - 23:00",
+            "desc": "L’Etat et moi. Der Staat und ich.\nSozialkritisches mit deutschen Texten. Musik mit Meinung.\nHier gibt es mittwochs nicht nur Punk –\njede Band ist willkommen, die was zu sagen hat.\nEin bisschen Unfrieden bei Hertz 87.9, jeden Mittwoch um 22 Uhr.",
+            "url": "http://www.hertz879.de/ressort/letat-et-moi/"
+        }
+    ],
+    "4": [
+        {
+            "name": "Intakt Neuheiten (Wdh.)",
+            "time": "07:30 - 08:30",
+            "desc": "InTakt – Das Musikneuheitenmagazin auf Hertz 87.9 Eine Stunde mit den Scheiben",
+            "link": "http://www.hertz879.de/ressort/intakt-neuheiten/"
+        },
+	{
+            "name": "Der Morgen",
+            "time": "09:00 - 11:00",
+            "desc": "Zwischen Morgenmuffeln und angebrannten Brötchen gibt es einen Lichtblick am Morgen: Der Morgen. Wir liefern euch den perfekten Start in der Tag mit bunten Themen und Musik jenseits des Dudelfunks.",
+            "url": "http://www.hertz879.de/ressort/der-morgen/"
+        },
+        {
+            "name": "Campus & Karriere",
+            "time": "14:30 - 15:00",
+            "desc": "Campus & Karriere auf Deutschlandfunk",
+            "url": "http://www.dradio.de/dlf/sendungen/campus/"
+        },
+	{
+            "name": "Kaffeepause (3. Donnerstag)",
+            "time": "16:00-17:30",
+            "desc": "In unserem Nachmittagsmagazin lassen wir unsere Stundengläser etwas langsamer laufen. In der Kaffeepause dreht sich alles um Entspannung, Gesundheit, Kreativität und Freizeit.",
+            "url":  "http://www.hertz879.de/ressort/kaffeepause/"
+        },
+	{
+            "name": "Hertz an Hertz (1. Donnerstag)",
+            "time": "18:00-19:00",
+            "desc": "Im ersten Moment könnte man glauben, es sei eine normale Radiosendung. Doch was die Moderatoren von Hertz an Hertz – die Satireshow veranstalten, wird euch tief berühren!",
+            "url": "http://www.hertz879.de/ressort/hertz-an-hertz/"
+        },
+	{
+            "name": "InTakt Plattenkritik (2. Donnerstag)",
+            "time": "18:00-19:00",
+            "desc": "Hertz 87.9 diskutiert Musik. Drei Menschen setzen sich ins Studio, hören ein aktuell wichtiges Album und schildern ihre Eindrücke. Heraus kommt eine packende Diskussion, die informiert, polarisiert und emotional mitreißt.",
+            "url": "http://www.hertz879.de/ressort/intakt-plattenkritik/"
+        },
+ 	{
+            "name": "Nerdtalk (3. Donnerstag)",
+            "time": "18:00-19:00",
+            "desc": "Hertz Diskutiert Games. Egal ob die neuesten Veröffentlichungen, eine Stunde langen einen Angeltrip bei WoW begleiten oder Gespräche über die neusten Techniken auf dem Videospielmark - hier finden alle Themen aus dem Bereich Game ihren Platz.",
+            "url": "http://www.hertz879.de/ressort/hertzlevel/"
+        },
+	{
+            "name": "Hand aufs Hertz (4. Donnerstag)",
+            "time": "18:00-19:00",
+            "desc": "Der Talk rund um Politik und Gesellschaft. Jeden dritten Donnerstag im Monat um 18h.",
+            "url":  "http://www.hertz879.de/ressort/sonstiges/"
+        },
+        {
+            "name": "ImGespräch - Das Talkformat",
+            "time": "20:00 - 21:00",
+            "desc": "ImGespräch – das Talk-Format auf Hertz 87.9. Was früher der In:takt Rekorder, Die Sprechstunde oder auch die Live-Text:Ernte war, ist nun vereint in einem neuen Format: ImGespräch.\nJeden Donnerstag von 20:00 bis 21:00 Uhr gibt es Interviews und Gespräche aus den Bereichen Musik, Literatur, Kultur, Film und vielen mehr.",
+            "url": "http://www.hertz879.de/ressort/imgespraech/"
+        },
+        {
+            "name": "Jazzabend",
+            "time": "22:00 - 23:00",
+            "desc": " “Jazz is not dead, it just smells funny.” hat schon Frank Zappa gesagt. Wir bleiben dem Motto treu und zeigen, dass Jazz alles andere als tot ist.",
+            "url": "http://www.hertz879.de/ressort/jazzabend/"
+        }
+    ],
+    "5": [
+        {
+            "name": "Mixtape",
+            "time": "00:00 - 01:00",
+            "desc": "Viele erinnern sich bestimmt an die Zeiten, in denen Musik als Zeichen von Zuneigung verschenkt wurde. Denn ein Mixtape kann mehr sagen als 1000 Bilder. Heutzutage in der digitalen Musikwelt ist das beschaffen und weitergeben von Musik zwar einfacher aber auch weniger persönlich. Wir wollen das ändern! Deswegen schenken wir euch jeden Dienstag ab 20 Uhr ein 60-minütiges Mixtape.",
+            "url": "http://www.hertz879.de/ressort/mixtape/"
+        },
+       {
+            "name": "HertzLevel Wiederholung (1.+3. Montag)",
+            "time": "07:30 - 08:30",
+            "desc": "Die Sendung für Gamer und Gesellschaftsspieler ist da! \n Ob analog oder digital – bei HertzLevel bekommt ihr alle Neuigkeiten und aktuellen Themen aus der Games-Kultur. Wir testen für euch Computer-, Video- und Gesellschaftspiele und halten euch über alle wichtigen Aktivitäten und Hintergründe aus der Spielewelt auf dem Laufenden. Gelevelt wird jeden ersten Montag im Monat um 18 Uhr.",
+            "url": "http://www.hertz879.de/ressort/hertzlevel/"
+        },
+        {
+            "name": "Hertzkultur Wiederholung (2.+4. Montag)",
+            "time": "07:30 - 08:30",
+            "desc": "Hertzkultur – Die Kunst und Kultursendung auf Hertz 87,9. Hier erfahrt ihr Neuigkeiten aus der Bielefelder Kulturszene. Wir laden Gäste ins Studio ein, berichten von den neuesten Ausstellungen und Veranstaltungen und stellen euch die besten Bücher, Hörbücher und Filme vor. Hertzkultur – jeden zweiten Montag im Monat um 18 Uhr",
+            "url": "http://www.hertz879.de/ressort/hertzkultur-kunst-kultur/"
+        },
+	 {
+            "name": "Der Morgen",
+            "time": "09:00 - 11:00",
+            "desc": "Zwischen Morgenmuffeln und angebrannten Brötchen gibt es einen Lichtblick am Morgen: Der Morgen. Wir liefern euch den perfekten Start in der Tag mit bunten Themen und Musik jenseits des Dudelfunks.",
+            "url": "http://www.hertz879.de/ressort/der-morgen/"
+        },
+        {
+            "name": "Campus & Karriere",
+            "time": "14:30 - 15:00",
+            "desc": "Campus & Karriere auf Deutschlandfunk",
+            "url": "http://www.dradio.de/dlf/sendungen/campus/"
+        },
+        {
+            "name": "HertzRasen (1. + 3. Freitag)",
+            "time": "16:00 - 17:00",
+            "desc": "Wenn man ihn nicht gerade selbst betreibt, ist Sport nirgends so spannend, nirgends so schön wie im Radio. Wo sonst könnte es eine Bundesligaschlusskonferenz geben? Sport auf Hertz 87.9 heißt: Ergebnisse, Reportagen, Interviews und Berichte rund um die Wilde Liga und Arminia Bielefeld. Außerdem natürlich Berichte und Info´s zu den verschiedenen Hochschulmeisterschaften.",
+            "url": "http://www.hertz879.de/ressort/hertzrasen/"
+        },
+        {
+            "name": "InFakt – Das Magazin (2. + 4. Freitag)",
+            "time": "16:00 - 17:00",
+            "desc": "Ob StuPa- oder Senatssitzung, Vorgänge und Projekte des AStA oder auch die Lokalpolitik: die komplexen und vielschichtigen Vorgänge und rund um die Universität und Bielefelds Politik thematisieren wir verständlich in InFakt - Das Magazin.",
+            "url": "http://www.hertz879.de/ressort/infakt/"
+        },
+       {
+            "name": "HertzKlappe - Kinomagazin",
+            "time": "18:00 - 19:00",
+            "desc": "Das Kinomagazin auf Hertz 87.9",
+            "url": "http://www.hertz879.de/ressort/hertzklappe/"
+        },
+	 {
+            "name": "InTakt Spezial",
+            "time": "19:00 - 20:00",
+            "desc": "Jeden Freitag um 18 Uhr. Eine Stunde lang Musik zu einem bestimmten Thema. Hier findet Ihr die Playlist der letzten Sendungen.\nDie Wiederholung könnt ihr Samstags um 18 Uhr hören.",
+            "url": "http://www.hertz879.de/ressort/intakt-spezial/"
+        },
+        {
+            "name": "Open Turntables",
+            "time": "20:00 - 22:00",
+            "desc": "Jeden Freitag ab 19:30 Uhr kommen DJs zu Hertz 87.9 ins Studio. Auflegen können die Plattenkünstler alles, was zur Musikfarbe von Hertz 87.9 passt. Also Rap, Reggae, Funk, Soul, Big Beat, Jungle, House, Drum´n Bass und vieles mehr!\nWenn auch du deine Plattenkunst mal on Air schicken möchtest, dann komm vorbei, ruf an oder schreib einfach an musik@radiohertz.de!",
+            "url": "http://www.hertz879.de/ressort/open-turntables/"
+        },
+        {
+            "name": "Mein Schuppen – Zielgruppenmusik",
+            "time": "22:00 - 23:00",
+            "desc": "House, Techno, Electro, Broken Beats und Artverwandtes.\nJeden Freitag ab 22 Uhr.\n",
+            "url": "http://www.hertz879.de/ressort/mein-schuppen/"
+        }
+    ],
+    "6": [
+        {
+            "name": "HertzRasen / InFakt Magazin – Wiederholung",
+            "time": "12:00 - 13:00",
+            "desc": "HertzRasen im Wechsel mit InFakt Magazin (Wdh.).",
+            "url": "http://www.hertz879.de/"
+        },
+	{
+            "name": "Kunststoff",
+            "time": "14:00 - 15:00",
+            "desc": "Wir tauchen für eine Stunde ein in ein Thema aus der Welt von Kunst und Kultur – egal ob aus Bielefeld oder aus aller Welt, ob von der großen Bühne, von der Straße oder aus der Uni, denn Kunst ist überall. ",
+            "url": "http://www.hertz879.de/ressort/kunststoff/"
+        },
+ 	 {
+            "name": "HertzKlappe - Kinomagazin (Wdh.)",
+            "time": "16:00 - 17:00",
+            "desc": "Das Kinomagazin auf Hertz 87.9",
+            "url": "http://www.hertz879.de/ressort/hertzklappe/"
+        },
+        {
+            "name": "InTakt Spezial (Wdh.)",
+            "time": "18:00 - 19:00",
+            "desc": "Jeden Freitag um 18 Uhr. Eine Stunde lang Musik zu einem bestimmten Thema. Hier findet Ihr die Playlist der letzten Sendungen.\nDie Wiederholung könnt ihr Samstags um 18 Uhr hören.",
+            "url": "http://www.hertz879.de/ressort/intakt-spezial/"
+        },
+        {
+            "name": "Jukebox",
+            "time": "20:00 - 21:00",
+            "desc": "Die Hertz 87.9 Jukebox ist eine Musiksendung, in der Ihr ausgewählte Stücke aus unserer Rotation hören könnt. Es werden auf jeden Fall die Songs gespielt, die in der laufenden Woche neu in unsere 1. Rotationsstufe aufgenommen worden sind. Die Hertz 87.9 Jukebox läuftjeden Mittwoch von 20-21uhr. Infos zu unserer Rotation findet Ihr hier!",
+            "url": "http://www.hertz879.de/ressort/jukebox/"
+        },
+        {
+            "name": "The Breaks – Zielgruppenmusik",
+            "time": "22:00 - 23:00",
+            "desc": "Rap, Funk und Soul. Jeden Samstag von 22-23 Uhr auf Hertz 87,9.\n\nAltes und Neues, von Grandmaster Flash & The Furious Five bis Danger Mouse.\nFunk & Soul.\nFunk- und Soul-Klassiker. Neben Legenden wie Curtis Mayfield, Marvin Gaye oder James Brown aber auch unbekanntere Tracks",
+            "url": "http://www.hertz879.de/ressort/the-breaks/"
+        }
+    ],
+    "7": [
+      	{
+            "name": "Der Hörsaal",
+            "time": "14:00 - 15:00",
+            "desc": "Du hast Lust auf Wissen und Unterhaltung, aber keine Lust dicke Wälzer zu lesen? Dann haben wir genau das Richtige für Dich:  Hertz 87.9 sendet regelmäßig Vorträge und Diskussionsrunden, die zuvor in und um die Universität Bielefeld herum aufgezeichnet wurden. Der Hörsaal bietet Dir zum Beispiel wissenschaftliche Vorträge (unter anderem vom Forum Offene Wissenschaft), hochschulpolitische Diskussionsrunden, Podiumsdiskussionen oder gesellschaftspolitische Vorträge.",
+            "url": "http://www.hertz879.de/ressort/der-hoersaal/"
+        },
+        {
+            "name": "ImGespräch (Wdh.)",
+            "time": "16:00 - 17:00",
+            "desc": "ImGespräch – das Talk-Format auf Hertz 87.9. Was früher der In:takt Rekorder, Die Sprechstunde oder auch die Live-Text:Ernte war, ist nun vereint in einem neuen Format: ImGespräch.\nJeden Donnerstag von 20:00 bis 21:00 Uhr gibt es Interviews und Gespräche aus den Bereichen Musik, Literatur, Kultur, Film und vielen mehr.",
+            "url": "http://www.hertz879.de/ressort/imgespraech/"
+        },
+       {
+            "name": "Kaffeepause (3. Sonntag)",
+            "time": "17:00-18:30",
+            "desc": "In unserem Nachmittagsmagazin lassen wir unsere Stundengläser etwas langsamer laufen. In der Kaffeepause dreht sich alles um Entspannung, Gesundheit, Kreativität und Freizeit.",
+            "url": "http://www.hertz879.de/ressort/kaffeepause/"
+        },
+	 {
+            "name": "Löwenhertz",
+            "time": "22:00 - 23:00",
+            "desc": "Reggae, Dancehall und Artverwandtes. Die chilligen Stunden bei Hertz 87.9.”",
+            "url": "http://www.hertz879.de/ressort/loewenhertz/"
+        }
+    ],
+    "facts": [
+        {
+            "name": "TestFact",
+            "desc": "TestFactDesc",
+            "url": "http://www.testurl.url"
+        },
+        {
+            "name": "Wusstest du?!",
+            "desc": "Hertz 87.9 kannst du auch im Internet als Stream hören. Einfach auf www.hertz879.de",
+            "url": "http://www.hertz879.de/"
+        },
+        {
+            "name": "Musik",
+            "desc": "Wenn Ihr selbst bei der Musikredaktion von Hertz 87,9 mitmachen wollt, kommt doch einfach zur Musik-Sitzung (Fr. 14:00 Uhr, C01-205)",
+            "url": "http://www.hertz879.de/musik/musikredaktionssitzung/"
+        },
+        {
+            "name": "L'Etat et Moi (Zielgruppen-Musik)",
+	    "desc": "Sozialkritisches mit deutschen Texten - Ein bisschen Unfrieden auf Hertz 87.9",
+	    "url": "http://www.hertz879.de/ressort/letat-et-moi/"
+        },
+        {
+            "name": "Mixtape",
+	    "desc": "Analog ist besser. Wir schenken euch jede Woche ein Mixtape.",
+	    "url": "http://www.hertz879.de/ressort/mixtape/"
+        },
+        {
+            "name": "Rotation",
+            "desc": "Welche aktuellen Songs haben uns überzeugt? Was läuft wie oft?",
+            "url": "http://www.hertz879.de/musik/aktuelle-rotation-2/"
+        },
+        {
+            "name": "Der Klassiker der Woche",
+            "desc": "Ein Hit vergangener Tage, den wir ins Licht der Aufmerksamkeit rücken. Für eine Woche.",
+            "url": "http://www.hertz879.de/musik/aktuelle-rotation-2/"
+        },
+        {
+            "name": "Playlist",
+            "desc": "Wann lief was? Was war dieser eine Song, den ich so cool fand? Unsere komplette Playlist steht online.",
+            "url": "http://www.hertz879.de/playlist/"
+        },
+	{   "name": "HertzLevel",
+            "desc": "Egal ob digital oder analog: Spielen macht Spaß! Jeden zweiten Montag um 18 Uhr beweisen wir euch das im HertzLevel, eurem Games-Magazin auf Hertz 87.9!",
+            "url": "http://www.hertz879.de/ressort/hertzlevel/"
+	},
+	{
+ 	    "name": "Nerdtalk",
+            "desc": "Das HertzLevel geht euch nicht tief genug? Getreu dem Motto: Talk nerdy to me! sprechen wir jeden dritten Donnerstag im Monat über alles, was nicht bei drei offline gegangen ist!",
+            "url": "http://www.hertz879.de/ressort/hertzlevel/"
+	},
+	{
+	    "name": "Wusstest du?!",
+            "desc": "Games gibt’s auch für die Augen! Auf unserem Twitch-Channel zeigen wir euch, wovon wir im Radio sprechen.",
+            "url": "https://www.twitch.tv/hertz_87_9_hertzlevel"
+	},
+	{
+             "name": "Wusstest du?!",
+             "desc": "Bei Hertz 87.9 gibt es auch Leute, die euch mit den Infos rund um die FH versorgen. Ihr habt Anmerkungen oder Fragen? Einfach unsere FH-Beauftragten kontaktieren!  ",
+             "url": "http://www.hertz879.de/hertz/die-redaktion/"
+        },
+	{
+            "name": "HertzKlappe",
+            "desc": "Wir sprechen über das Neuste aus der Film- und Serienwelt. Jede Woche, jeden Freitag und immer aktuell. ",
+            "url": "http://www.hertz879.de/ressort/hertzklappe/"
+        },
+	{
+            "name": "Kaffeepause",
+            "desc": "Dem Stress des Alltags den Rücken kehren und Zeit für sich selbst finden. Wie funktioniert das? Lasst euch inspirieren.",
+            "url": "http://www.hertz879.de/ressort/kaffeepause/"
+        },
+	{
+	    "name": "ImPuls – das Wissenschaftsmagazin (alle 2. Wochen mittwochs)",
+	    "desc": "Neues aus der Welt der Wissenschaft. Vom Campus, aus Bielefeld und der Welt. Impuls, befasst sich mit allem, was zur Wissenschaft dazu gehört. ",
+	    "url": "http://www.hertz879.de/ressort/impuls/"
+	},
+	{    
+	    "name": "ImGespräch",
+            "desc": "Das Talk-Format auf Hertz 87.9. Jeden Donnerstag von 20:00 bis 21:00 Uhr gibt es Interviews aus den Bereichen Musik, Kultur, Film, Hochschule, etc.",
+            "url": "http://www.hertz879.de/ressort/imgespraech/"
+	},
+	{
+	    "name": "Hand aufs Hertz",
+	    "desc": "Der Talk rund um Politik und Gesellschaft. Jeden dritten Donnerstag im Monat um 18h.",
+	    "url": "http://www.hertz879.de/ressort/sonstiges/" 
+	},
+	{
+	    "name": "Science Talk" ,
+	    "desc": "Eine Stunde lang eine Talk Runde zu Wissenschaftsthemen rund um Filme, Serien, Literatur und Videospielen.",
+	    "url": "http://www.hertz879.de/ressort/science-talk/"
+	},
+	{
+	    "name": "Der Hörsaal (sonntags, 14 Uhr und von Montag auf Dienstag um Mitternacht)",
+ 	    "desc": " Hertz 87.9 sendet wöchentlich interessante Vorträge, die zuvor in und um die Universität Bielefeld aufgezeichnet wurden. Die Vorträge sind gesellschaftskritisch, politisch relevant und spannend und werden mit Expertenmeinungen angereichert. ",
+	    "url": "http://www.hertz879.de/ressort/der-hoersaal/"
+	},
+	{
+            "name": "Seminar: “Radiojournalismus: On Air bei Hertz 87.9",
+            "desc": "Bei uns kannst du das 1x1 des Radiojournalismus lernen und dabei noch was Gutes für dein Studium tun! Schreib uns an seminar@radiohertz.de",
+            "url":  "http://www.hertz879.de/mitmachen/hertz-seminar/"
+        },
+	{
+	    "name": "Wusstest du?!",
+            "desc": "Ihr wart beim letzten Livestream vom HertzLevel afk? Kein Problem, das Ganze gibt’s nochmal zum Nachgucken auf YouTube!",
+            "url": "https://www.youtube.com/channel/UCXo1za9nN7x-Tb4G2d5yNfg"
+	},
+	{
+            "name": "Kunst und Kultur",
+            "desc": "Ob Gelesenes, das Hertzkultur-Magazin oder TextErnte - Hier erfahrt ihr, was in Sachen 'KuKu' in Bielefeld passiert.",
+            "url": "http://www.hertz879.de/ressort/kunst-kultur/"
+        },
+	{
+	    "name": "InTakt Neuheiten",
+	    "desc": "Das Musikneuheitenmagazin auf Hertz 87.9. Eine Stunde lang die neuesten Veröffentlichungen aus der Welt der Musik. ",
+	    "url": "http://www.hertz879.de/ressort/intakt-neuheiten/"
+	},
+	{
+	    "name": "InTakt Spezial",
+	    "desc": "Eine Stunde, ein Musik-Thema. Trust us, we’re experts. Am Freitagabend nehmen wir uns eine Stunde für ein spezielles Thema. ",
+	    "url": "http://www.hertz879.de/ressort/intakt-spezial/"
+	},
+	{
+	    "name": "InTakt Plattenkritik",
+	    "desc": "Hertz 87.9 diskutiert Musik. Drei Menschen setzen sich ins Studio, hören ein aktuell wichtiges Album und schildern ihre Eindrücke. Heraus kommt eine packende Diskussion, die informiert, polarisiert und emotional mitreißt. ",
+	    "url": "http://www.hertz879.de/ressort/intakt-plattenkritik/"
+	},
+	{
+	    "name": "Mixtape",
+	    "desc": "Analog ist besser. Viele erinnern sich bestimmt an die Zeiten, in denen Musik als Zeichen von Zuneigung verschenkt wurde. Denn ein Mixtape kann mehr sagen als 1000 Bilder. Heutzutage in der digitalen Musikwelt ist das Beschaffen und Weitergeben von Musik zwar einfacher aber auch weniger persönlich. Wir wollen das ändern! Deswegen schenken wir euch jeden Dienstag ab 20 Uhr ein 60-minütiges Mixtape. ",
+	    "url": "http://www.hertz879.de/ressort/mixtape/"
+	},
+	{
+	    "name": "Jukebox",
+	    "desc": "Die Hertz 87.9 Jukebox ist eine Musiksendung, in der Ihr ausgewählte Stücke aus unserer Rotation hören könnt. Es werden auf jeden Fall die Songs gespielt, die in der laufenden Woche neu in unsere 1. Rotationsstufe aufgenommen worden sind. ",
+	    "url": "http://www.hertz879.de/ressort/jukebox/"
+	},
+	{
+	    "name": "Open Turntables",
+	    "desc": "Jeden Freitag ab 19:30 Uhr kommen DJ_ane*s zu Hertz 87.9 ins Studio. Auflegen können die Plattenkünstler alles, was zur Musikfarbe von Hertz 87.9 passt. Also Hip Hop, Rock, Reggae, Drum´n Bass, Dubstep, Funk, Soul, Big Beat, Jungle, House, Techno und vieles mehr! ",
+	    "url": "http://www.hertz879.de/ressort/open-turntables/"
+	},
+	{
+	    "name": "Hard Attack",
+	    "desc": "Eine Stunde lang hartes Zeug. Bei Hard Attack erwartet euch alles aus den Bereichen Rock, Hardrock und Metal. Dabei kommt nicht nur neues Zeug zum Zuge, es gibt auch Klassiker auf die Ohren; von Black Sabbath und Deep Purple über Slayer und Metallica bis zu Tool oder Avenged Sevenfold. Hauptsache Gitarren. ",
+	    "url": "http://www.hertz879.de/ressort/hard-attack/ "
+	},
+	{
+	    "name": "E:clipse",
+	    "desc": "Die „düstere“ Schiene und ihre Anhänger haben es besonders schwer in der deutschen Radiolandschaft. Nicht bei uns! Darum wird es am Dienstagabend richtig finster und krachig auf Hertz 87.9. EBM, Industrial, Darkwave, Synthie-, Future-, Avantgarde-Pop und Gothic füllen die 60 Minuten der alternativen Zielgruppenmusik. ",
+	    "url": "http://www.hertz879.de/ressort/eclipse/"
+	},
+	{
+	    "name": "L’Etat et moi.",
+	    "desc": "L’Etat et moi. Der Staat und ich. Sozialkritisches mit deutschen Texten. Musik mit Meinung. Hier gibt es mittwochs nicht nur Punk – solange die Band was Schlaues zu sagen hat, ist das Genre egal. Ein bisschen Unfrieden bei Hertz 87.9. ",
+	    "url": "http://www.hertz879.de/ressort/letat-et-moi/"
+	},
+	{
+	    "name": "Jazzabend",
+	    "desc": "“Jazz is not dead, it just smells funny.” (Frank Zappa)",
+	    "url":"http://www.hertz879.de/ressort/jazzabend/"
+	},
+	{
+	    "name": "Mein Schuppen",
+	    "desc": "„Jeden Freitagabend in unserer Straße feiern wir ne Technoparade“  In The Mix! Elektronische Tanzmusik und Artverwandtes. ",
+	    "url": "http://www.hertz879.de/ressort/mein-schuppen/"
+	},
+	{   "name": "The Breaks",
+	    "desc": "Rap, Funk, Soul und R’n’B! Eine Stunde fette Beats, funky Tunes und geschmeidige Melodien auf Hertz 87.9. ",
+	    "url":  "http://www.hertz879.de/ressort/the-breaks/"
+	},
+	{
+            "name": "HertzRasen",
+            "desc": "Über euren Sport oder Verein soll in unserer Sendung berichtet werden? Dann schreibt uns an sport@radiohertz.de.",
+            "url":"http://www.hertz879.de/ressort/hertzrasen/"
+        },
+        {
+            "name": "HertzRasen",
+            "desc": "Von Arminia Bielefeld bis zum Zumba-Kurs. Der Sport auf Hertz 87.9. Jeden zweiten Freitag um 16 Uhr. ",
+            "url": "http://www.hertz879.de/ressort/hertzrasen/"
+        },
+        {
+            "name": "Sport",
+            "desc": "Ihr habt Tipps und Anregungen für die Sportredaktion. Her damit! Schickt eine Mail an sport@radiohertz.de",
+            "url": "http://www.hertz879.de/ressort/hertzrasen/"
+        },
+	{
+            "name": "Nachgetreten",
+            "desc": "Über nichts kann man so gut diskutieren, wie über Fußball. Wir tun das immer am ersten Montag im Monat um 16 Uhr.",
+            "url": "http://www.hertz879.de/ressort/nachgetreten/"
+        },
+	{
+            "name": "(Hochschul)-Politik bei Hertz 87.9",
+            "desc": "Bei Hertz gibt es auch politischen Journalismus. Du hast Anregungen, Infos oder möchtest mitmachen? Meld dich einfach bei uns!",
+            "url": "http://www.hertz879.de/ressort/infakt/"
+        },
+	{  
+	    "name": "Hertz International",
+            "desc": "Bei Hertz International geht es um Themen rund um internationale Studierende und Einrichtungen in Bielefeld.",
+            "url": "http://www.hertz879.de/ressort/hertz-international/"
+        }, 
+	{
+ 	    "name": "Löwenhertz",
+ 	    "desc": "Reggae, Dancehall und Artverwandtes. Die chilligen Stunden bei Hertz 87.9.",
+	    "url": " http://www.hertz879.de/ressort/loewenhertz/"
+	}
+
+
+
+    ]
+}
+
