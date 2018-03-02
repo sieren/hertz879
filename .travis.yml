@@ -1,0 +1,15 @@
+
+osx_image: xcode9.2
+language: objective-c
+xcode_project: iOS/Source/Hertz\ 87.9/Hertz\ 87.9.xcodeproj # path to your xcodeproj folder
+xcode_scheme: Hertz 87.9Tests
+# cache: cocoapods
+# podfile: Example/Podfile
+# before_install:
+# - gem install cocoapods # Since Travis is not always on latest version
+# - pod install --project-directory=Example
+script:
+- cd iOS/Source/Hertz\ 87.9/
+- carthage update
+- set -o pipefail && xcodebuild -project "Hertz 87.9.xcodeproj" -target "Hertz 87.9" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO | xcpretty
+- set -o pipefail && xcodebuild -project "Hertz 87.9.xcodeproj" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -configuration Debug build test -scheme "Hertz 87.9" -destination 'platform=iOS Simulator,name=iPhone 8' | xcpretty
