@@ -25,6 +25,12 @@
 		690A19B92048226A004D2734 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 690A19B82048226A004D2734 /* Resources */; };
 		693147E4204961930094595C /* WebRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693147E3204961930094595C /* WebRequestTest.swift */; };
 		693147E620496D890094595C /* ProgramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693147E520496D880094595C /* ProgramData.swift */; };
+		693147E92049730A0094595C /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693147E7204972C70094595C /* PlaylistController.swift */; };
+		693147F7204976130094595C /* XSPFManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 693147F0204976110094595C /* XSPFManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		693147F8204976130094595C /* XSPFPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 693147F2204976120094595C /* XSPFPlaylist.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		693147F9204976130094595C /* XSPFTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 693147F5204976120094595C /* XSPFTrack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		693147FC204976420094595C /* NSMutableString+XSPFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 693147FA204976420094595C /* NSMutableString+XSPFKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		693147FE204979A00094595C /* PlaylistControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693147FD204979A00094595C /* PlaylistControllerTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +66,18 @@
 		690A19B82048226A004D2734 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		693147E3204961930094595C /* WebRequestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequestTest.swift; sourceTree = "<group>"; };
 		693147E520496D880094595C /* ProgramData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramData.swift; sourceTree = "<group>"; };
+		693147E7204972C70094595C /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
+		693147EC2049752F0094595C /* Hertz-87-9-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hertz-87-9-Bridging-Header.h"; sourceTree = "<group>"; };
+		693147F0204976110094595C /* XSPFManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSPFManager.m; sourceTree = "<group>"; };
+		693147F1204976110094595C /* XSPFManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSPFManager.h; sourceTree = "<group>"; };
+		693147F2204976120094595C /* XSPFPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSPFPlaylist.m; sourceTree = "<group>"; };
+		693147F3204976120094595C /* XSPFPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSPFPlaylist.h; sourceTree = "<group>"; };
+		693147F4204976120094595C /* XSPFKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSPFKit.h; sourceTree = "<group>"; };
+		693147F5204976120094595C /* XSPFTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSPFTrack.m; sourceTree = "<group>"; };
+		693147F6204976120094595C /* XSPFTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSPFTrack.h; sourceTree = "<group>"; };
+		693147FA204976420094595C /* NSMutableString+XSPFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XSPFKit.m"; sourceTree = "<group>"; };
+		693147FB204976420094595C /* NSMutableString+XSPFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XSPFKit.h"; sourceTree = "<group>"; };
+		693147FD204979A00094595C /* PlaylistControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistControllerTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,7 @@
 				690A19A7204800F4004D2734 /* StreamController.swift */,
 				690A19AC2048068F004D2734 /* RemoteUrls.swift */,
 				690A19B420480F58004D2734 /* ProgramController.swift */,
+				693147E7204972C70094595C /* PlaylistController.swift */,
 				693147E520496D880094595C /* ProgramData.swift */,
 				690A19AE20480A93004D2734 /* WebRequestManager.swift */,
 				690A1985204800AB004D2734 /* FirstViewController.swift */,
@@ -117,6 +136,16 @@
 				690A198C204800AB004D2734 /* Assets.xcassets */,
 				690A198E204800AB004D2734 /* LaunchScreen.storyboard */,
 				690A1991204800AB004D2734 /* Info.plist */,
+				693147EC2049752F0094595C /* Hertz-87-9-Bridging-Header.h */,
+				693147F4204976120094595C /* XSPFKit.h */,
+				693147F1204976110094595C /* XSPFManager.h */,
+				693147F0204976110094595C /* XSPFManager.m */,
+				693147F3204976120094595C /* XSPFPlaylist.h */,
+				693147FB204976420094595C /* NSMutableString+XSPFKit.h */,
+				693147FA204976420094595C /* NSMutableString+XSPFKit.m */,
+				693147F2204976120094595C /* XSPFPlaylist.m */,
+				693147F6204976120094595C /* XSPFTrack.h */,
+				693147F5204976120094595C /* XSPFTrack.m */,
 			);
 			path = "Hertz 87.9";
 			sourceTree = "<group>";
@@ -128,6 +157,7 @@
 				690A199A204800AC004D2734 /* Hertz_87_9Tests.swift */,
 				690A199C204800AC004D2734 /* Info.plist */,
 				690A19B62048214E004D2734 /* ProgramTests.swift */,
+				693147FD204979A00094595C /* PlaylistControllerTest.swift */,
 				693147E3204961930094595C /* WebRequestTest.swift */,
 			);
 			path = "Hertz 87.9Tests";
@@ -282,9 +312,14 @@
 				690A19A8204800F4004D2734 /* StreamController.swift in Sources */,
 				690A1988204800AB004D2734 /* SecondViewController.swift in Sources */,
 				690A19A6204800D7004D2734 /* AppContext.swift in Sources */,
+				693147F7204976130094595C /* XSPFManager.m in Sources */,
+				693147F9204976130094595C /* XSPFTrack.m in Sources */,
+				693147FC204976420094595C /* NSMutableString+XSPFKit.m in Sources */,
 				690A19AF20480A93004D2734 /* WebRequestManager.swift in Sources */,
 				690A19AD2048068F004D2734 /* RemoteUrls.swift in Sources */,
 				690A1984204800AB004D2734 /* AppDelegate.swift in Sources */,
+				693147F8204976130094595C /* XSPFPlaylist.m in Sources */,
+				693147E92049730A0094595C /* PlaylistController.swift in Sources */,
 				690A19B520480F58004D2734 /* ProgramController.swift in Sources */,
 				690A1986204800AB004D2734 /* FirstViewController.swift in Sources */,
 			);
@@ -295,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				693147E4204961930094595C /* WebRequestTest.swift in Sources */,
+				693147FE204979A00094595C /* PlaylistControllerTest.swift in Sources */,
 				690A19B72048214E004D2734 /* ProgramTests.swift in Sources */,
 				690A199B204800AC004D2734 /* Hertz_87_9Tests.swift in Sources */,
 			);
@@ -452,6 +488,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiasfrick.Hertz-87-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Hertz 87.9/Hertz-87-9-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -472,6 +509,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiasfrick.Hertz-87-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Hertz 87.9/Hertz-87-9-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
