@@ -2,13 +2,19 @@
 
 import Foundation
 
-struct Song {
-  let time: Date
+struct CurrentSong: Equatable {
   let artist: String
   let title: String
+
+  static func == (lhs: CurrentSong, rhs: CurrentSong) -> Bool {
+    return lhs.artist == rhs.artist &&
+      lhs.title == rhs.title
+  }
+
 }
 
 typealias PlayListCompletionHandler = () -> Void
+typealias CurrentTitleCompletionHandler = (CurrentSong?, Error?) -> Void
 
 extension XSPFTrack {
   var timeStamp: Date? {
@@ -43,6 +49,22 @@ class PlaylistController {
       guard let arraySlice = self.playlist?[0..<PlaylistController.kPlaylistLimit] else { return }
       self.playlist = Array(arraySlice)
       completionHandler?()
+    }
+  }
+
+  func loadCurrentTitle(completionHandler: @escaping CurrentTitleCompletionHandler) {
+    let titleUrl = URL(string: RemoteURLs.defaultCurrentTitleURL)!
+    let artistUrl = URL(string: RemoteURLs.defaultCurrentArtistURL)!
+    webRequestManager.makeHTTPGetRequest(url: artistUrl) { (data, error) in
+      if error != nil { return }
+      guard let responseData = data else { return completionHandler(nil, error) }
+      guard let artist = String(data: responseData, encoding: .utf8) else { return }
+      self.webRequestManager.makeHTTPGetRequest(url: titleUrl, onCompletion: { (data, error) in
+        if error != nil { return }
+        guard let responseData = data else { return completionHandler(nil, error) }
+        guard let title = String(data: responseData, encoding: .utf8) else { return completionHandler(nil, error) }
+        completionHandler(CurrentSong(artist: artist, title: title), error)
+      })
     }
   }
 }

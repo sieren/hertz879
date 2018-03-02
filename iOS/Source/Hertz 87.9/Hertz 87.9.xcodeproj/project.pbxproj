@@ -137,15 +137,7 @@
 				690A198E204800AB004D2734 /* LaunchScreen.storyboard */,
 				690A1991204800AB004D2734 /* Info.plist */,
 				693147EC2049752F0094595C /* Hertz-87-9-Bridging-Header.h */,
-				693147F4204976120094595C /* XSPFKit.h */,
-				693147F1204976110094595C /* XSPFManager.h */,
-				693147F0204976110094595C /* XSPFManager.m */,
-				693147F3204976120094595C /* XSPFPlaylist.h */,
-				693147FB204976420094595C /* NSMutableString+XSPFKit.h */,
-				693147FA204976420094595C /* NSMutableString+XSPFKit.m */,
-				693147F2204976120094595C /* XSPFPlaylist.m */,
-				693147F6204976120094595C /* XSPFTrack.h */,
-				693147F5204976120094595C /* XSPFTrack.m */,
+				693147FF204984E10094595C /* XSPFKit */,
 			);
 			path = "Hertz 87.9";
 			sourceTree = "<group>";
@@ -170,6 +162,22 @@
 				690A19AA204801BD004D2734 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		693147FF204984E10094595C /* XSPFKit */ = {
+			isa = PBXGroup;
+			children = (
+				693147F4204976120094595C /* XSPFKit.h */,
+				693147F1204976110094595C /* XSPFManager.h */,
+				693147F0204976110094595C /* XSPFManager.m */,
+				693147F3204976120094595C /* XSPFPlaylist.h */,
+				693147FB204976420094595C /* NSMutableString+XSPFKit.h */,
+				693147FA204976420094595C /* NSMutableString+XSPFKit.m */,
+				693147F2204976120094595C /* XSPFPlaylist.m */,
+				693147F6204976120094595C /* XSPFTrack.h */,
+				693147F5204976120094595C /* XSPFTrack.m */,
+			);
+			path = XSPFKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
