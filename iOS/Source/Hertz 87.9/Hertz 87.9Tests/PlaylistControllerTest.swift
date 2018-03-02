@@ -13,6 +13,7 @@ class PlaylistControllerTest: XCTestCase {
       // noop
     }
   }
+
   class MockURLSession: URLSessionProtocol {
     var nextDataTask = MockURLDataTask()
     var nextData: [Data?]! {
@@ -97,5 +98,31 @@ class PlaylistControllerTest: XCTestCase {
     let firstTrack = playlistController.playlist?.first
     let lastTrack = playlistController.playlist?.last
     XCTAssertTrue(firstTrack!.timeStamp! > lastTrack!.timeStamp!)
+  }
+
+  func testCurrentTitle() {
+    let currentSong = CurrentSong(artist: "test artist", title: "test title")
+    let artistData = currentSong.artist.data(using: .utf8)
+    let titleData = currentSong.title.data(using: .utf8)
+
+    session.nextData = [Data?]()
+    session.nextData.append(artistData)
+    session.nextData.append(titleData)
+
+    playlistController.loadCurrentTitle { (testSongResult, _) in
+      XCTAssertEqual(testSongResult, currentSong)
+    }
+  }
+
+  func testCurrentTitleNilOnError() {
+    let currentSong = CurrentSong(artist: "test artist", title: "test title")
+    let artistData = currentSong.artist.data(using: .utf8)
+
+    session.nextData = [Data?]()
+    session.nextData.append(artistData)
+
+    playlistController.loadCurrentTitle { (testSongResult, _) in
+      XCTAssertNil(testSongResult)
+    }
   }
 }
