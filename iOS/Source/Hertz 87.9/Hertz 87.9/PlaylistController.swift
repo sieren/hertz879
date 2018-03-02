@@ -18,10 +18,19 @@ typealias CurrentTitleCompletionHandler = (CurrentSong?, Error?) -> Void
 
 extension XSPFTrack {
   var timeStamp: Date? {
-    guard let time = self.meta[0] as? String else { return nil }
-    let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZ"
-    return dateFormatter.date(from: time)!
+    get {
+      if self.meta.count == 0 { return nil }
+      guard let time = self.meta[0] as? String else { return nil }
+      let dateFormatter = DateFormatter()
+      dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZ"
+      return dateFormatter.date(from: time)!
+    }
+    set {
+      let dateFormatter = DateFormatter()
+      dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZ"
+      let dateString = newValue != nil ? dateFormatter.string(from: newValue!) : ""
+      self.meta[0] = dateString
+    }
   }
 }
 
