@@ -19,7 +19,6 @@
 		690A19AB204801BD004D2734 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690A19AA204801BD004D2734 /* AVFoundation.framework */; };
 		690A19AD2048068F004D2734 /* RemoteUrls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A19AC2048068F004D2734 /* RemoteUrls.swift */; };
 		690A19AF20480A93004D2734 /* WebRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A19AE20480A93004D2734 /* WebRequestManager.swift */; };
-		690A19B320480C89004D2734 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690A19B220480C89004D2734 /* SwiftyJSON.framework */; };
 		690A19B520480F58004D2734 /* ProgramController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A19B420480F58004D2734 /* ProgramController.swift */; };
 		690A19B72048214E004D2734 /* ProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A19B62048214E004D2734 /* ProgramTests.swift */; };
 		690A19B92048226A004D2734 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 690A19B82048226A004D2734 /* Resources */; };
@@ -95,7 +94,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				690A19B320480C89004D2734 /* SwiftyJSON.framework in Frameworks */,
 				690A19AB204801BD004D2734 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +322,6 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			outputPaths = (
 			);
