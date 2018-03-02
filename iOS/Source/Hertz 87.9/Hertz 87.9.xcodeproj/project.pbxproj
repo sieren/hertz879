@@ -31,6 +31,11 @@
 		693147F9204976130094595C /* XSPFTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 693147F5204976120094595C /* XSPFTrack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 		693147FC204976420094595C /* NSMutableString+XSPFKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 693147FA204976420094595C /* NSMutableString+XSPFKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
 		693147FE204979A00094595C /* PlaylistControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693147FD204979A00094595C /* PlaylistControllerTest.swift */; };
+		693148012049C9B50094595C /* FavouriteTracksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148002049C9B50094595C /* FavouriteTracksController.swift */; };
+		693148032049CC440094595C /* FavouriteSongsControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148022049CC440094595C /* FavouriteSongsControllerTests.swift */; };
+		693148062049DB670094595C /* FavouriteTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148042049DB630094595C /* FavouriteTrack.swift */; };
+		693148082049DD690094595C /* UserDefaultUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148072049DD690094595C /* UserDefaultUtilities.swift */; };
+		6931480A2049E1500094595C /* FavouriteTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148092049E1500094595C /* FavouriteTrackTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +83,11 @@
 		693147FA204976420094595C /* NSMutableString+XSPFKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+XSPFKit.m"; sourceTree = "<group>"; };
 		693147FB204976420094595C /* NSMutableString+XSPFKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+XSPFKit.h"; sourceTree = "<group>"; };
 		693147FD204979A00094595C /* PlaylistControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistControllerTest.swift; sourceTree = "<group>"; };
+		693148002049C9B50094595C /* FavouriteTracksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTracksController.swift; sourceTree = "<group>"; };
+		693148022049CC440094595C /* FavouriteSongsControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteSongsControllerTests.swift; sourceTree = "<group>"; };
+		693148042049DB630094595C /* FavouriteTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTrack.swift; sourceTree = "<group>"; };
+		693148072049DD690094595C /* UserDefaultUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultUtilities.swift; sourceTree = "<group>"; };
+		693148092049E1500094595C /* FavouriteTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTrackTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +135,9 @@
 				690A1983204800AB004D2734 /* AppDelegate.swift */,
 				690A19A5204800D7004D2734 /* AppContext.swift */,
 				690A19A7204800F4004D2734 /* StreamController.swift */,
+				693148042049DB630094595C /* FavouriteTrack.swift */,
+				693148072049DD690094595C /* UserDefaultUtilities.swift */,
+				693148002049C9B50094595C /* FavouriteTracksController.swift */,
 				690A19AC2048068F004D2734 /* RemoteUrls.swift */,
 				690A19B420480F58004D2734 /* ProgramController.swift */,
 				693147E7204972C70094595C /* PlaylistController.swift */,
@@ -149,7 +162,9 @@
 				690A199A204800AC004D2734 /* Hertz_87_9Tests.swift */,
 				690A199C204800AC004D2734 /* Info.plist */,
 				690A19B62048214E004D2734 /* ProgramTests.swift */,
+				693148092049E1500094595C /* FavouriteTrackTests.swift */,
 				693147FD204979A00094595C /* PlaylistControllerTest.swift */,
+				693148022049CC440094595C /* FavouriteSongsControllerTests.swift */,
 				693147E3204961930094595C /* WebRequestTest.swift */,
 			);
 			path = "Hertz 87.9Tests";
@@ -321,9 +336,12 @@
 				690A1988204800AB004D2734 /* SecondViewController.swift in Sources */,
 				690A19A6204800D7004D2734 /* AppContext.swift in Sources */,
 				693147F7204976130094595C /* XSPFManager.m in Sources */,
+				693148082049DD690094595C /* UserDefaultUtilities.swift in Sources */,
 				693147F9204976130094595C /* XSPFTrack.m in Sources */,
 				693147FC204976420094595C /* NSMutableString+XSPFKit.m in Sources */,
+				693148012049C9B50094595C /* FavouriteTracksController.swift in Sources */,
 				690A19AF20480A93004D2734 /* WebRequestManager.swift in Sources */,
+				693148062049DB670094595C /* FavouriteTrack.swift in Sources */,
 				690A19AD2048068F004D2734 /* RemoteUrls.swift in Sources */,
 				690A1984204800AB004D2734 /* AppDelegate.swift in Sources */,
 				693147F8204976130094595C /* XSPFPlaylist.m in Sources */,
@@ -338,7 +356,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				693147E4204961930094595C /* WebRequestTest.swift in Sources */,
+				693148032049CC440094595C /* FavouriteSongsControllerTests.swift in Sources */,
 				693147FE204979A00094595C /* PlaylistControllerTest.swift in Sources */,
+				6931480A2049E1500094595C /* FavouriteTrackTests.swift in Sources */,
 				690A19B72048214E004D2734 /* ProgramTests.swift in Sources */,
 				690A199B204800AC004D2734 /* Hertz_87_9Tests.swift in Sources */,
 			);
