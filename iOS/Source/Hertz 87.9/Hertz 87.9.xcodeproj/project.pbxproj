@@ -35,6 +35,8 @@
 		693148062049DB670094595C /* FavouriteTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148042049DB630094595C /* FavouriteTrack.swift */; };
 		693148082049DD690094595C /* UserDefaultUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148072049DD690094595C /* UserDefaultUtilities.swift */; };
 		6931480A2049E1500094595C /* FavouriteTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148092049E1500094595C /* FavouriteTrackTests.swift */; };
+		6931480E204A06E40094595C /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6931480D204A06E40094595C /* FeedKit.framework */; };
+		69314817204A0C540094595C /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6931480D204A06E40094595C /* FeedKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,7 @@
 		693148042049DB630094595C /* FavouriteTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTrack.swift; sourceTree = "<group>"; };
 		693148072049DD690094595C /* UserDefaultUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultUtilities.swift; sourceTree = "<group>"; };
 		693148092049E1500094595C /* FavouriteTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTrackTests.swift; sourceTree = "<group>"; };
+		69314815204A0C490094595C /* FeedKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FeedKit.framework.dSYM; path = Carthage/Build/iOS/FeedKit.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6931480E204A06E40094595C /* FeedKit.framework in Frameworks */,
 				690A19AB204801BD004D2734 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69314817204A0C540094595C /* FeedKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +168,8 @@
 		690A19A9204801BC004D2734 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69314815204A0C490094595C /* FeedKit.framework.dSYM */,
+				6931480D204A06E40094595C /* FeedKit.framework */,
 				690A19B220480C89004D2734 /* SwiftyJSON.framework */,
 				690A19AA204801BD004D2734 /* AVFoundation.framework */,
 			);
@@ -322,6 +329,7 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FeedKit.framework",
 			);
 			outputPaths = (
 			);
@@ -555,6 +563,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VEESE9857L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Hertz 87.9Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiasfrick.Hertz-87-9Tests";
@@ -572,6 +584,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VEESE9857L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "Hertz 87.9Tests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiasfrick.Hertz-87-9Tests";
