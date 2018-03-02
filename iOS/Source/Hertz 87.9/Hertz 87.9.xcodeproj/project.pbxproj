@@ -22,6 +22,7 @@
 		690A19B520480F58004D2734 /* ProgramController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A19B420480F58004D2734 /* ProgramController.swift */; };
 		690A19B72048214E004D2734 /* ProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A19B62048214E004D2734 /* ProgramTests.swift */; };
 		690A19B92048226A004D2734 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 690A19B82048226A004D2734 /* Resources */; };
+		69271EEA204A13A300132FB8 /* NewsControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69271EE9204A13A300132FB8 /* NewsControllerTests.swift */; };
 		693147E4204961930094595C /* WebRequestTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693147E3204961930094595C /* WebRequestTest.swift */; };
 		693147E620496D890094595C /* ProgramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693147E520496D880094595C /* ProgramData.swift */; };
 		693147E92049730A0094595C /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693147E7204972C70094595C /* PlaylistController.swift */; };
@@ -36,6 +37,9 @@
 		693148082049DD690094595C /* UserDefaultUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148072049DD690094595C /* UserDefaultUtilities.swift */; };
 		6931480A2049E1500094595C /* FavouriteTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693148092049E1500094595C /* FavouriteTrackTests.swift */; };
 		6931480E204A06E40094595C /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6931480D204A06E40094595C /* FeedKit.framework */; };
+		69314810204A07150094595C /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6931480F204A07150094595C /* NewsController.swift */; };
+		69314812204A08E70094595C /* RSSFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69314811204A08E70094595C /* RSSFeedController.swift */; };
+		69314814204A0A890094595C /* RSSFeedControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69314813204A0A890094595C /* RSSFeedControllerTests.swift */; };
 		69314817204A0C540094595C /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6931480D204A06E40094595C /* FeedKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +74,7 @@
 		690A19B420480F58004D2734 /* ProgramController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramController.swift; sourceTree = "<group>"; };
 		690A19B62048214E004D2734 /* ProgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramTests.swift; sourceTree = "<group>"; };
 		690A19B82048226A004D2734 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		69271EE9204A13A300132FB8 /* NewsControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsControllerTests.swift; sourceTree = "<group>"; };
 		693147E3204961930094595C /* WebRequestTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequestTest.swift; sourceTree = "<group>"; };
 		693147E520496D880094595C /* ProgramData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramData.swift; sourceTree = "<group>"; };
 		693147E7204972C70094595C /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
@@ -89,6 +94,10 @@
 		693148042049DB630094595C /* FavouriteTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTrack.swift; sourceTree = "<group>"; };
 		693148072049DD690094595C /* UserDefaultUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultUtilities.swift; sourceTree = "<group>"; };
 		693148092049E1500094595C /* FavouriteTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteTrackTests.swift; sourceTree = "<group>"; };
+		6931480D204A06E40094595C /* FeedKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FeedKit.framework; path = Carthage/Build/iOS/FeedKit.framework; sourceTree = "<group>"; };
+		6931480F204A07150094595C /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		69314811204A08E70094595C /* RSSFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedController.swift; sourceTree = "<group>"; };
+		69314813204A0A890094595C /* RSSFeedControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedControllerTests.swift; sourceTree = "<group>"; };
 		69314815204A0C490094595C /* FeedKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FeedKit.framework.dSYM; path = Carthage/Build/iOS/FeedKit.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -157,7 +166,9 @@
 				690A199A204800AC004D2734 /* Hertz_87_9Tests.swift */,
 				690A199C204800AC004D2734 /* Info.plist */,
 				690A19B62048214E004D2734 /* ProgramTests.swift */,
+				69271EE9204A13A300132FB8 /* NewsControllerTests.swift */,
 				693148092049E1500094595C /* FavouriteTrackTests.swift */,
+				69314813204A0A890094595C /* RSSFeedControllerTests.swift */,
 				693147FD204979A00094595C /* PlaylistControllerTest.swift */,
 				693148022049CC440094595C /* FavouriteSongsControllerTests.swift */,
 				693147E3204961930094595C /* WebRequestTest.swift */,
@@ -196,6 +207,8 @@
 			isa = PBXGroup;
 			children = (
 				693148042049DB630094595C /* FavouriteTrack.swift */,
+				6931480F204A07150094595C /* NewsController.swift */,
+				69314811204A08E70094595C /* RSSFeedController.swift */,
 				693148002049C9B50094595C /* FavouriteTracksController.swift */,
 				693147E7204972C70094595C /* PlaylistController.swift */,
 				690A19B420480F58004D2734 /* ProgramController.swift */,
@@ -350,12 +363,14 @@
 				690A19A6204800D7004D2734 /* AppContext.swift in Sources */,
 				693147F7204976130094595C /* XSPFManager.m in Sources */,
 				693148082049DD690094595C /* UserDefaultUtilities.swift in Sources */,
+				69314810204A07150094595C /* NewsController.swift in Sources */,
 				693147F9204976130094595C /* XSPFTrack.m in Sources */,
 				693147FC204976420094595C /* NSMutableString+XSPFKit.m in Sources */,
 				693148012049C9B50094595C /* FavouriteTracksController.swift in Sources */,
 				690A19AF20480A93004D2734 /* WebRequestManager.swift in Sources */,
 				693148062049DB670094595C /* FavouriteTrack.swift in Sources */,
 				690A19AD2048068F004D2734 /* RemoteUrls.swift in Sources */,
+				69314812204A08E70094595C /* RSSFeedController.swift in Sources */,
 				690A1984204800AB004D2734 /* AppDelegate.swift in Sources */,
 				693147F8204976130094595C /* XSPFPlaylist.m in Sources */,
 				693147E92049730A0094595C /* PlaylistController.swift in Sources */,
@@ -368,7 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69271EEA204A13A300132FB8 /* NewsControllerTests.swift in Sources */,
 				693147E4204961930094595C /* WebRequestTest.swift in Sources */,
+				69314814204A0A890094595C /* RSSFeedControllerTests.swift in Sources */,
 				693148032049CC440094595C /* FavouriteSongsControllerTests.swift in Sources */,
 				693147FE204979A00094595C /* PlaylistControllerTest.swift in Sources */,
 				6931480A2049E1500094595C /* FavouriteTrackTests.swift in Sources */,

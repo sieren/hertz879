@@ -10,6 +10,7 @@ struct RemoteURLs {
   public static var defaultPlaylistURL = "https://stream.radiohertz.de/playlist/"
   public static let defaultCurrentArtistURL = "http://stream.radiohertz.de/playlist/current.title"
   public static let defaultCurrentTitleURL = "http://stream.radiohertz.de/playlist/current.artist"
+  public static let defaultRSSNewsFeedURL = "http://www.hertz879.de/nachrichten/feed/rss"
 
   public struct Streams {
 
