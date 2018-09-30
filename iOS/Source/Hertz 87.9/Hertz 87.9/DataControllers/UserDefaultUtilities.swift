@@ -7,7 +7,7 @@ struct UserDefaultsUtilities {
   static func extractValuesFromPropertyListArray<T: PropertyListReadable>(propertyListArray: [AnyObject]?) -> [T] {
     guard let encodedArray = propertyListArray
       else {return []}
-    return encodedArray.map { $0 as? NSDictionary}.flatMap { T(propertyListRepresentation: $0) }
+			return encodedArray.map { $0 as? NSDictionary}.compactMap { T(propertyListRepresentation: $0) }
   }
 
   static func saveValuesToDefaults<T: PropertyListReadable>(newValues: [T], key: String) {

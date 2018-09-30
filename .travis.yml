@@ -1,5 +1,5 @@
 
-osx_image: xcode9.2
+osx_image: xcode10
 language: objective-c
 xcode_project: iOS/Source/Hertz\ 87.9/Hertz\ 87.9.xcodeproj # path to your xcodeproj folder
 xcode_scheme: Hertz 87.9Tests
