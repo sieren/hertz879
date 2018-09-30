@@ -22,7 +22,7 @@ class RSSFeedController {
 
   private func parseFeedData(data: Data, error: NetRequestError?, onCompletion: PollRSSHandler? = nil) {
     let parser = FeedParser(data: data)
-    parser?.parseAsync(result: { (result) in
+			parser.parseAsync(result: { (result) in
       onCompletion?(result, nil)
     })
   }

@@ -51,13 +51,13 @@ struct ProgramWeek {
 
   init?(json: [String: Any]) {
     self.programsDay = [Int: [ProgramEntry]]()
-    for i in 1...7 {
-      let dayData = json[String(i)] as? [Any]
-      programsDay[i] = [ProgramEntry]()
+    for idx in 1...7 {
+      let dayData = json[String(idx)] as? [Any]
+      programsDay[idx] = [ProgramEntry]()
       for dayItem in dayData! {
         let item = dayItem as? [String: Any]
         guard let entry = ProgramEntry(json: item!) else { continue }
-        programsDay[i]?.append(entry)
+        programsDay[idx]?.append(entry)
       }
     }
   }

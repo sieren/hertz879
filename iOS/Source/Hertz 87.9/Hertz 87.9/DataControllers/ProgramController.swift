@@ -17,13 +17,13 @@ class ProgramController {
   func getProgram(for time: Date) -> ProgramEntry? {
     let dayOfWeek = time.dayOfWeek
     let dayEntries = week.programsDay[dayOfWeek]!
-    if let i = dayEntries.index(where: {
+    if let idx = dayEntries.index(where: {
       ($0.startTime.compareTimeOnly(to: time) == .orderedAscending) &&
         ($0.endTime.compareTimeOnly(to: time) == .orderedDescending) ||
         ($0.startTime.compareTimeOnly(to: time) == .orderedSame) ||
         ($0.endTime.compareTimeOnly(to: time) == .orderedSame)
     }) {
-      return dayEntries[i]
+      return dayEntries[idx]
     }
     return nil
   }
