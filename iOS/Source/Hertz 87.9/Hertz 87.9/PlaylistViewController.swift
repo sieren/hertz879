@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  Hertz 87.9
 //
 //  Created by Matthias Frick on 01.03.2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class PlaylistViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()

@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		690A1984204800AB004D2734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A1983204800AB004D2734 /* AppDelegate.swift */; };
-		690A1986204800AB004D2734 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A1985204800AB004D2734 /* FirstViewController.swift */; };
-		690A1988204800AB004D2734 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A1987204800AB004D2734 /* SecondViewController.swift */; };
+		690A1986204800AB004D2734 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A1985204800AB004D2734 /* PlayerViewController.swift */; };
+		690A1988204800AB004D2734 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A1987204800AB004D2734 /* PlaylistViewController.swift */; };
 		690A198B204800AB004D2734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690A1989204800AB004D2734 /* Main.storyboard */; };
 		690A198D204800AB004D2734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690A198C204800AB004D2734 /* Assets.xcassets */; };
 		690A1990204800AB004D2734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690A198E204800AB004D2734 /* LaunchScreen.storyboard */; };
@@ -76,8 +76,8 @@
 /* Begin PBXFileReference section */
 		690A1980204800AB004D2734 /* Hertz 87.9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hertz 87.9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		690A1983204800AB004D2734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		690A1985204800AB004D2734 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		690A1987204800AB004D2734 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		690A1985204800AB004D2734 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		690A1987204800AB004D2734 /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
 		690A198A204800AB004D2734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		690A198C204800AB004D2734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690A198F204800AB004D2734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 				690A1983204800AB004D2734 /* AppDelegate.swift */,
 				690A19A5204800D7004D2734 /* AppContext.swift */,
 				6931480C2049E6FE0094595C /* DataControllers */,
-				690A1985204800AB004D2734 /* FirstViewController.swift */,
-				690A1987204800AB004D2734 /* SecondViewController.swift */,
+				690A1985204800AB004D2734 /* PlayerViewController.swift */,
+				690A1987204800AB004D2734 /* PlaylistViewController.swift */,
 				690E6D51204B30AA008CDAEA /* UIFont+Extensions.swift */,
 				690E6D2C204B2F98008CDAEA /* Fonts */,
 				690A1989204800AB004D2734 /* Main.storyboard */,
@@ -447,7 +447,7 @@
 			files = (
 				693147E620496D890094595C /* ProgramData.swift in Sources */,
 				690A19A8204800F4004D2734 /* StreamController.swift in Sources */,
-				690A1988204800AB004D2734 /* SecondViewController.swift in Sources */,
+				690A1988204800AB004D2734 /* PlaylistViewController.swift in Sources */,
 				690A19A6204800D7004D2734 /* AppContext.swift in Sources */,
 				693147F7204976130094595C /* XSPFManager.m in Sources */,
 				693148082049DD690094595C /* UserDefaultUtilities.swift in Sources */,
@@ -464,7 +464,7 @@
 				693147E92049730A0094595C /* PlaylistController.swift in Sources */,
 				690A19B520480F58004D2734 /* ProgramController.swift in Sources */,
 				690E6D52204B30AA008CDAEA /* UIFont+Extensions.swift in Sources */,
-				690A1986204800AB004D2734 /* FirstViewController.swift in Sources */,
+				690A1986204800AB004D2734 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
