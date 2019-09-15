@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		690A1984204800AB004D2734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A1983204800AB004D2734 /* AppDelegate.swift */; };
-		690A1986204800AB004D2734 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A1985204800AB004D2734 /* FirstViewController.swift */; };
-		690A1988204800AB004D2734 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690A1987204800AB004D2734 /* SecondViewController.swift */; };
 		690A198B204800AB004D2734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690A1989204800AB004D2734 /* Main.storyboard */; };
 		690A198D204800AB004D2734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690A198C204800AB004D2734 /* Assets.xcassets */; };
 		690A1990204800AB004D2734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690A198E204800AB004D2734 /* LaunchScreen.storyboard */; };
@@ -61,6 +58,10 @@
 		69314812204A08E70094595C /* RSSFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69314811204A08E70094595C /* RSSFeedController.swift */; };
 		69314814204A0A890094595C /* RSSFeedControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69314813204A0A890094595C /* RSSFeedControllerTests.swift */; };
 		69314817204A0C540094595C /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6931480D204A06E40094595C /* FeedKit.framework */; };
+		69B3EC56232E8053002DFA1D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3EC55232E8053002DFA1D /* MainView.swift */; };
+		69E5BE40232E7D50004C56A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5BE3D232E7D50004C56A1 /* SceneDelegate.swift */; };
+		69E5BE41232E7D50004C56A1 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5BE3E232E7D50004C56A1 /* NavigationView.swift */; };
+		69E5BE42232E7D50004C56A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5BE3F232E7D50004C56A1 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,13 +76,9 @@
 
 /* Begin PBXFileReference section */
 		690A1980204800AB004D2734 /* Hertz 87.9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hertz 87.9.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		690A1983204800AB004D2734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		690A1985204800AB004D2734 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		690A1987204800AB004D2734 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		690A198A204800AB004D2734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		690A198C204800AB004D2734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690A198F204800AB004D2734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		690A1991204800AB004D2734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690A1996204800AC004D2734 /* Hertz 87.9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hertz 87.9Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		690A199A204800AC004D2734 /* Hertz_87_9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hertz_87_9Tests.swift; sourceTree = "<group>"; };
 		690A199C204800AC004D2734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,6 +136,11 @@
 		69314811204A08E70094595C /* RSSFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedController.swift; sourceTree = "<group>"; };
 		69314813204A0A890094595C /* RSSFeedControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedControllerTests.swift; sourceTree = "<group>"; };
 		69314815204A0C490094595C /* FeedKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FeedKit.framework.dSYM; path = Carthage/Build/iOS/FeedKit.framework.dSYM; sourceTree = "<group>"; };
+		69B3EC55232E8053002DFA1D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		69E5BE3D232E7D50004C56A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		69E5BE3E232E7D50004C56A1 /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		69E5BE3F232E7D50004C56A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69E5BE43232E7D62004C56A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,17 +186,17 @@
 		690A1982204800AB004D2734 /* Hertz 87.9 */ = {
 			isa = PBXGroup;
 			children = (
-				690A1983204800AB004D2734 /* AppDelegate.swift */,
+				69B3EC54232E8012002DFA1D /* Views */,
 				690A19A5204800D7004D2734 /* AppContext.swift */,
+				69E5BE3F232E7D50004C56A1 /* AppDelegate.swift */,
+				69E5BE3D232E7D50004C56A1 /* SceneDelegate.swift */,
 				6931480C2049E6FE0094595C /* DataControllers */,
-				690A1985204800AB004D2734 /* FirstViewController.swift */,
-				690A1987204800AB004D2734 /* SecondViewController.swift */,
 				690E6D51204B30AA008CDAEA /* UIFont+Extensions.swift */,
 				690E6D2C204B2F98008CDAEA /* Fonts */,
 				690A1989204800AB004D2734 /* Main.storyboard */,
 				690A198C204800AB004D2734 /* Assets.xcassets */,
+				69E5BE43232E7D62004C56A1 /* Info.plist */,
 				690A198E204800AB004D2734 /* LaunchScreen.storyboard */,
-				690A1991204800AB004D2734 /* Info.plist */,
 				693147EC2049752F0094595C /* Hertz-87-9-Bridging-Header.h */,
 				693147FF204984E10094595C /* XSPFKit */,
 			);
@@ -287,6 +289,15 @@
 				690A19AE20480A93004D2734 /* WebRequestManager.swift */,
 			);
 			path = DataControllers;
+			sourceTree = "<group>";
+		};
+		69B3EC54232E8012002DFA1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				69E5BE3E232E7D50004C56A1 /* NavigationView.swift */,
+				69B3EC55232E8053002DFA1D /* MainView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,25 +457,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				693147E620496D890094595C /* ProgramData.swift in Sources */,
+				69B3EC56232E8053002DFA1D /* MainView.swift in Sources */,
 				690A19A8204800F4004D2734 /* StreamController.swift in Sources */,
-				690A1988204800AB004D2734 /* SecondViewController.swift in Sources */,
 				690A19A6204800D7004D2734 /* AppContext.swift in Sources */,
 				693147F7204976130094595C /* XSPFManager.m in Sources */,
 				693148082049DD690094595C /* UserDefaultUtilities.swift in Sources */,
 				69314810204A07150094595C /* NewsController.swift in Sources */,
 				693147F9204976130094595C /* XSPFTrack.m in Sources */,
 				693147FC204976420094595C /* NSMutableString+XSPFKit.m in Sources */,
+				69E5BE42232E7D50004C56A1 /* AppDelegate.swift in Sources */,
+				69E5BE41232E7D50004C56A1 /* NavigationView.swift in Sources */,
 				693148012049C9B50094595C /* FavouriteTracksController.swift in Sources */,
 				690A19AF20480A93004D2734 /* WebRequestManager.swift in Sources */,
 				693148062049DB670094595C /* FavouriteTrack.swift in Sources */,
+				69E5BE40232E7D50004C56A1 /* SceneDelegate.swift in Sources */,
 				690A19AD2048068F004D2734 /* RemoteUrls.swift in Sources */,
 				69314812204A08E70094595C /* RSSFeedController.swift in Sources */,
-				690A1984204800AB004D2734 /* AppDelegate.swift in Sources */,
 				693147F8204976130094595C /* XSPFPlaylist.m in Sources */,
 				693147E92049730A0094595C /* PlaylistController.swift in Sources */,
 				690A19B520480F58004D2734 /* ProgramController.swift in Sources */,
 				690E6D52204B30AA008CDAEA /* UIFont+Extensions.swift in Sources */,
-				690A1986204800AB004D2734 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,7 +576,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -617,7 +629,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -636,12 +648,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Hertz 87.9/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiasfrick.Hertz-87-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Hertz 87.9/Hertz-87-9-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -657,12 +669,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = "Hertz 87.9/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiasfrick.Hertz-87-9";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Hertz 87.9/Hertz-87-9-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -682,7 +694,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiasfrick.Hertz-87-9Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hertz 87.9.app/Hertz 87.9";
 			};
@@ -703,7 +715,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathiasfrick.Hertz-87-9Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hertz 87.9.app/Hertz 87.9";
 			};

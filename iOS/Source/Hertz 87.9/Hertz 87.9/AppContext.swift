@@ -2,8 +2,8 @@
 
 import Foundation
 
-class AppContext {
-  public var streamController: StreamController!
+class AppContext: ObservableObject {
+  @Published public var streamController: StreamController!
   public var programController: ProgramController!
 
   init() {

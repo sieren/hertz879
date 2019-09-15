@@ -17,7 +17,7 @@ class ProgramController {
   func getProgram(for time: Date) -> ProgramEntry? {
     let dayOfWeek = time.dayOfWeek
     let dayEntries = week.programsDay[dayOfWeek]!
-    if let idx = dayEntries.index(where: {
+    if let idx = dayEntries.firstIndex(where: {
       ($0.startTime.compareTimeOnly(to: time) == .orderedAscending) &&
         ($0.endTime.compareTimeOnly(to: time) == .orderedDescending) ||
         ($0.startTime.compareTimeOnly(to: time) == .orderedSame) ||
@@ -39,8 +39,8 @@ class ProgramController {
     guard let data = jsonData else {  callback?(.parseError); return }
     guard let todoJSON = try? JSONSerialization.jsonObject(with: data,
                                                            options: []) as? [String: Any] else { return }
-    self.week = ProgramWeek(json: todoJSON!)
-    self.facts = getFacts(json: todoJSON!)
+    self.week = ProgramWeek(json: todoJSON)
+    self.facts = getFacts(json: todoJSON)
     callback?(nil)
   }
 
