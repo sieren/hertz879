@@ -58,10 +58,33 @@
 		69314812204A08E70094595C /* RSSFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69314811204A08E70094595C /* RSSFeedController.swift */; };
 		69314814204A0A890094595C /* RSSFeedControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69314813204A0A890094595C /* RSSFeedControllerTests.swift */; };
 		69314817204A0C540094595C /* FeedKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6931480D204A06E40094595C /* FeedKit.framework */; };
+		695645BC2334D1620011AB8E /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695645BB2334D1620011AB8E /* WaveformView.swift */; };
+		695645ED2334E88C0011AB8E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 695645CA2334E88C0011AB8E /* Reachability.m */; };
+		695645EE2334E88C0011AB8E /* FSParseRssPodcastFeedRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 695645CB2334E88C0011AB8E /* FSParseRssPodcastFeedRequest.m */; };
+		695645EF2334E88C0011AB8E /* http_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645CD2334E88C0011AB8E /* http_stream.cpp */; };
+		695645F02334E88C0011AB8E /* FSPlaylistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 695645CE2334E88C0011AB8E /* FSPlaylistItem.m */; };
+		695645F12334E88C0011AB8E /* audio_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645CF2334E88C0011AB8E /* audio_stream.cpp */; };
+		695645F22334E88C0011AB8E /* id3_parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645D12334E88C0011AB8E /* id3_parser.cpp */; };
+		695645F32334E88C0011AB8E /* FSCheckContentTypeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 695645D22334E88C0011AB8E /* FSCheckContentTypeRequest.m */; };
+		695645F42334E88C0011AB8E /* stream_configuration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645D32334E88C0011AB8E /* stream_configuration.cpp */; };
+		695645F52334E88C0011AB8E /* input_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645D52334E88C0011AB8E /* input_stream.cpp */; };
+		695645F62334E88C0011AB8E /* FSAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 695645D82334E88C0011AB8E /* FSAudioController.m */; };
+		695645F72334E88C0011AB8E /* file_output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645D92334E88C0011AB8E /* file_output.cpp */; };
+		695645F82334E88C0011AB8E /* caching_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645DA2334E88C0011AB8E /* caching_stream.cpp */; };
+		695645F92334E88C0011AB8E /* FSXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 695645DE2334E88C0011AB8E /* FSXMLHttpRequest.m */; };
+		695645FA2334E88C0011AB8E /* FSAudioStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 695645E12334E88C0011AB8E /* FSAudioStream.mm */; };
+		695645FB2334E88C0011AB8E /* audio_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645E32334E88C0011AB8E /* audio_queue.cpp */; };
+		695645FC2334E88C0011AB8E /* file_stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 695645E52334E88C0011AB8E /* file_stream.cpp */; };
+		695645FD2334E88C0011AB8E /* FSParsePlaylistRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 695645E62334E88C0011AB8E /* FSParsePlaylistRequest.m */; };
+		695646032334E96D0011AB8E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 695645FF2334E9010011AB8E /* libxml2.tbd */; };
+		6958FE2B2333E9E1004434D3 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6958FE2A2333E9E1004434D3 /* PlayerView.swift */; };
+		6958FE2D2333EE7B004434D3 /* CurrentTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6958FE2C2333EE7B004434D3 /* CurrentTitleView.swift */; };
+		6958FE2F23342265004434D3 /* CurrentProgramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6958FE2E23342265004434D3 /* CurrentProgramView.swift */; };
 		69B3EC56232E8053002DFA1D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B3EC55232E8053002DFA1D /* MainView.swift */; };
 		69E5BE40232E7D50004C56A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5BE3D232E7D50004C56A1 /* SceneDelegate.swift */; };
-		69E5BE41232E7D50004C56A1 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5BE3E232E7D50004C56A1 /* NavigationView.swift */; };
+		69E5BE41232E7D50004C56A1 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5BE3E232E7D50004C56A1 /* TabBarView.swift */; };
 		69E5BE42232E7D50004C56A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69E5BE3F232E7D50004C56A1 /* AppDelegate.swift */; };
+		69EF7B432334FF5500E3A762 /* SoundWave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EF7B422334FF5500E3A762 /* SoundWave.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,11 +159,54 @@
 		69314811204A08E70094595C /* RSSFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedController.swift; sourceTree = "<group>"; };
 		69314813204A0A890094595C /* RSSFeedControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedControllerTests.swift; sourceTree = "<group>"; };
 		69314815204A0C490094595C /* FeedKit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = FeedKit.framework.dSYM; path = Carthage/Build/iOS/FeedKit.framework.dSYM; sourceTree = "<group>"; };
+		695645BB2334D1620011AB8E /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		695645BD2334D41C0011AB8E /* ACBAVPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ACBAVPlayer.framework; path = Carthage/Build/iOS/ACBAVPlayer.framework; sourceTree = "<group>"; };
+		695645C92334E88C0011AB8E /* audio_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_queue.h; sourceTree = "<group>"; };
+		695645CA2334E88C0011AB8E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		695645CB2334E88C0011AB8E /* FSParseRssPodcastFeedRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSParseRssPodcastFeedRequest.m; sourceTree = "<group>"; };
+		695645CC2334E88C0011AB8E /* FSXMLHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSXMLHttpRequest.h; sourceTree = "<group>"; };
+		695645CD2334E88C0011AB8E /* http_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = http_stream.cpp; sourceTree = "<group>"; };
+		695645CE2334E88C0011AB8E /* FSPlaylistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPlaylistItem.m; sourceTree = "<group>"; };
+		695645CF2334E88C0011AB8E /* audio_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio_stream.cpp; sourceTree = "<group>"; };
+		695645D02334E88C0011AB8E /* FSParsePlaylistRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSParsePlaylistRequest.h; sourceTree = "<group>"; };
+		695645D12334E88C0011AB8E /* id3_parser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = id3_parser.cpp; sourceTree = "<group>"; };
+		695645D22334E88C0011AB8E /* FSCheckContentTypeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCheckContentTypeRequest.m; sourceTree = "<group>"; };
+		695645D32334E88C0011AB8E /* stream_configuration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stream_configuration.cpp; sourceTree = "<group>"; };
+		695645D42334E88C0011AB8E /* file_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_stream.h; sourceTree = "<group>"; };
+		695645D52334E88C0011AB8E /* input_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = input_stream.cpp; sourceTree = "<group>"; };
+		695645D62334E88C0011AB8E /* input_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input_stream.h; sourceTree = "<group>"; };
+		695645D72334E88C0011AB8E /* file_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_output.h; sourceTree = "<group>"; };
+		695645D82334E88C0011AB8E /* FSAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAudioController.m; sourceTree = "<group>"; };
+		695645D92334E88C0011AB8E /* file_output.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file_output.cpp; sourceTree = "<group>"; };
+		695645DA2334E88C0011AB8E /* caching_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = caching_stream.cpp; sourceTree = "<group>"; };
+		695645DB2334E88C0011AB8E /* audio_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audio_stream.h; sourceTree = "<group>"; };
+		695645DC2334E88C0011AB8E /* http_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_stream.h; sourceTree = "<group>"; };
+		695645DD2334E88C0011AB8E /* FSPlaylistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPlaylistItem.h; sourceTree = "<group>"; };
+		695645DE2334E88C0011AB8E /* FSXMLHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSXMLHttpRequest.m; sourceTree = "<group>"; };
+		695645DF2334E88C0011AB8E /* FSParseRssPodcastFeedRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSParseRssPodcastFeedRequest.h; sourceTree = "<group>"; };
+		695645E02334E88C0011AB8E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		695645E12334E88C0011AB8E /* FSAudioStream.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSAudioStream.mm; sourceTree = "<group>"; };
+		695645E22334E88C0011AB8E /* id3_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id3_parser.h; sourceTree = "<group>"; };
+		695645E32334E88C0011AB8E /* audio_queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = audio_queue.cpp; sourceTree = "<group>"; };
+		695645E42334E88C0011AB8E /* FSCheckContentTypeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCheckContentTypeRequest.h; sourceTree = "<group>"; };
+		695645E52334E88C0011AB8E /* file_stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = file_stream.cpp; sourceTree = "<group>"; };
+		695645E62334E88C0011AB8E /* FSParsePlaylistRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSParsePlaylistRequest.m; sourceTree = "<group>"; };
+		695645E72334E88C0011AB8E /* FSAudioStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAudioStream.h; sourceTree = "<group>"; };
+		695645E82334E88C0011AB8E /* FreeStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeStreamer.h; sourceTree = "<group>"; };
+		695645E92334E88C0011AB8E /* FSAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAudioController.h; sourceTree = "<group>"; };
+		695645EA2334E88C0011AB8E /* stream_configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream_configuration.h; sourceTree = "<group>"; };
+		695645EC2334E88C0011AB8E /* caching_stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caching_stream.h; sourceTree = "<group>"; };
+		695645FF2334E9010011AB8E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		695646012334E91C0011AB8E /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		6958FE2A2333E9E1004434D3 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		6958FE2C2333EE7B004434D3 /* CurrentTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTitleView.swift; sourceTree = "<group>"; };
+		6958FE2E23342265004434D3 /* CurrentProgramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentProgramView.swift; sourceTree = "<group>"; };
 		69B3EC55232E8053002DFA1D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		69E5BE3D232E7D50004C56A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69E5BE3E232E7D50004C56A1 /* NavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		69E5BE3E232E7D50004C56A1 /* TabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		69E5BE3F232E7D50004C56A1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69E5BE43232E7D62004C56A1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69EF7B422334FF5500E3A762 /* SoundWave.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SoundWave.framework; path = Carthage/Build/iOS/SoundWave.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +214,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69EF7B432334FF5500E3A762 /* SoundWave.framework in Frameworks */,
+				695646032334E96D0011AB8E /* libxml2.tbd in Frameworks */,
 				6931480E204A06E40094595C /* FeedKit.framework in Frameworks */,
 				690A19AB204801BD004D2734 /* AVFoundation.framework in Frameworks */,
 			);
@@ -186,6 +254,7 @@
 		690A1982204800AB004D2734 /* Hertz 87.9 */ = {
 			isa = PBXGroup;
 			children = (
+				6958FE292333E9D0004434D3 /* Components */,
 				69B3EC54232E8012002DFA1D /* Views */,
 				690A19A5204800D7004D2734 /* AppContext.swift */,
 				69E5BE3F232E7D50004C56A1 /* AppDelegate.swift */,
@@ -198,6 +267,7 @@
 				69E5BE43232E7D62004C56A1 /* Info.plist */,
 				690A198E204800AB004D2734 /* LaunchScreen.storyboard */,
 				693147EC2049752F0094595C /* Hertz-87-9-Bridging-Header.h */,
+				695645B62334D1300011AB8E /* Third-Party */,
 				693147FF204984E10094595C /* XSPFKit */,
 			);
 			path = "Hertz 87.9";
@@ -224,6 +294,10 @@
 		690A19A9204801BC004D2734 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				69EF7B422334FF5500E3A762 /* SoundWave.framework */,
+				695646012334E91C0011AB8E /* libxml2.2.tbd */,
+				695645FF2334E9010011AB8E /* libxml2.tbd */,
+				695645BD2334D41C0011AB8E /* ACBAVPlayer.framework */,
 				69314815204A0C490094595C /* FeedKit.framework.dSYM */,
 				6931480D204A06E40094595C /* FeedKit.framework */,
 				690A19B220480C89004D2734 /* SwiftyJSON.framework */,
@@ -291,10 +365,71 @@
 			path = DataControllers;
 			sourceTree = "<group>";
 		};
+		695645B62334D1300011AB8E /* Third-Party */ = {
+			isa = PBXGroup;
+			children = (
+				695645C82334E88C0011AB8E /* FreeStreamer */,
+			);
+			path = "Third-Party";
+			sourceTree = "<group>";
+		};
+		695645C82334E88C0011AB8E /* FreeStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				695645C92334E88C0011AB8E /* audio_queue.h */,
+				695645CA2334E88C0011AB8E /* Reachability.m */,
+				695645CB2334E88C0011AB8E /* FSParseRssPodcastFeedRequest.m */,
+				695645CC2334E88C0011AB8E /* FSXMLHttpRequest.h */,
+				695645CD2334E88C0011AB8E /* http_stream.cpp */,
+				695645CE2334E88C0011AB8E /* FSPlaylistItem.m */,
+				695645CF2334E88C0011AB8E /* audio_stream.cpp */,
+				695645D02334E88C0011AB8E /* FSParsePlaylistRequest.h */,
+				695645D12334E88C0011AB8E /* id3_parser.cpp */,
+				695645D22334E88C0011AB8E /* FSCheckContentTypeRequest.m */,
+				695645D32334E88C0011AB8E /* stream_configuration.cpp */,
+				695645D42334E88C0011AB8E /* file_stream.h */,
+				695645D52334E88C0011AB8E /* input_stream.cpp */,
+				695645D62334E88C0011AB8E /* input_stream.h */,
+				695645D72334E88C0011AB8E /* file_output.h */,
+				695645D82334E88C0011AB8E /* FSAudioController.m */,
+				695645D92334E88C0011AB8E /* file_output.cpp */,
+				695645DA2334E88C0011AB8E /* caching_stream.cpp */,
+				695645DB2334E88C0011AB8E /* audio_stream.h */,
+				695645DC2334E88C0011AB8E /* http_stream.h */,
+				695645DD2334E88C0011AB8E /* FSPlaylistItem.h */,
+				695645DE2334E88C0011AB8E /* FSXMLHttpRequest.m */,
+				695645DF2334E88C0011AB8E /* FSParseRssPodcastFeedRequest.h */,
+				695645E02334E88C0011AB8E /* Reachability.h */,
+				695645E12334E88C0011AB8E /* FSAudioStream.mm */,
+				695645E22334E88C0011AB8E /* id3_parser.h */,
+				695645E32334E88C0011AB8E /* audio_queue.cpp */,
+				695645E42334E88C0011AB8E /* FSCheckContentTypeRequest.h */,
+				695645E52334E88C0011AB8E /* file_stream.cpp */,
+				695645E62334E88C0011AB8E /* FSParsePlaylistRequest.m */,
+				695645E72334E88C0011AB8E /* FSAudioStream.h */,
+				695645E82334E88C0011AB8E /* FreeStreamer.h */,
+				695645E92334E88C0011AB8E /* FSAudioController.h */,
+				695645EA2334E88C0011AB8E /* stream_configuration.h */,
+				695645EC2334E88C0011AB8E /* caching_stream.h */,
+			);
+			path = FreeStreamer;
+			sourceTree = "<group>";
+		};
+		6958FE292333E9D0004434D3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6958FE2A2333E9E1004434D3 /* PlayerView.swift */,
+				695645BB2334D1620011AB8E /* WaveformView.swift */,
+				6958FE2C2333EE7B004434D3 /* CurrentTitleView.swift */,
+				6958FE2E23342265004434D3 /* CurrentProgramView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		69B3EC54232E8012002DFA1D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				69E5BE3E232E7D50004C56A1 /* NavigationView.swift */,
+				69E5BE3E232E7D50004C56A1 /* TabBarView.swift */,
 				69B3EC55232E8053002DFA1D /* MainView.swift */,
 			);
 			path = Views;
@@ -433,7 +568,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 		690A19B120480C59004D2734 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -442,12 +577,13 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/FeedKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SoundWave.framework",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -456,27 +592,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				695645F72334E88C0011AB8E /* file_output.cpp in Sources */,
+				695645F52334E88C0011AB8E /* input_stream.cpp in Sources */,
 				693147E620496D890094595C /* ProgramData.swift in Sources */,
+				695645FD2334E88C0011AB8E /* FSParsePlaylistRequest.m in Sources */,
+				695645F92334E88C0011AB8E /* FSXMLHttpRequest.m in Sources */,
+				695645F82334E88C0011AB8E /* caching_stream.cpp in Sources */,
 				69B3EC56232E8053002DFA1D /* MainView.swift in Sources */,
+				695645F12334E88C0011AB8E /* audio_stream.cpp in Sources */,
+				695645F32334E88C0011AB8E /* FSCheckContentTypeRequest.m in Sources */,
+				695645EF2334E88C0011AB8E /* http_stream.cpp in Sources */,
+				6958FE2D2333EE7B004434D3 /* CurrentTitleView.swift in Sources */,
+				695645F42334E88C0011AB8E /* stream_configuration.cpp in Sources */,
 				690A19A8204800F4004D2734 /* StreamController.swift in Sources */,
+				695645F62334E88C0011AB8E /* FSAudioController.m in Sources */,
+				6958FE2B2333E9E1004434D3 /* PlayerView.swift in Sources */,
+				695645FB2334E88C0011AB8E /* audio_queue.cpp in Sources */,
 				690A19A6204800D7004D2734 /* AppContext.swift in Sources */,
 				693147F7204976130094595C /* XSPFManager.m in Sources */,
 				693148082049DD690094595C /* UserDefaultUtilities.swift in Sources */,
 				69314810204A07150094595C /* NewsController.swift in Sources */,
+				695645FC2334E88C0011AB8E /* file_stream.cpp in Sources */,
+				695645F22334E88C0011AB8E /* id3_parser.cpp in Sources */,
+				695645BC2334D1620011AB8E /* WaveformView.swift in Sources */,
 				693147F9204976130094595C /* XSPFTrack.m in Sources */,
 				693147FC204976420094595C /* NSMutableString+XSPFKit.m in Sources */,
+				695645EE2334E88C0011AB8E /* FSParseRssPodcastFeedRequest.m in Sources */,
+				695645FA2334E88C0011AB8E /* FSAudioStream.mm in Sources */,
 				69E5BE42232E7D50004C56A1 /* AppDelegate.swift in Sources */,
-				69E5BE41232E7D50004C56A1 /* NavigationView.swift in Sources */,
+				69E5BE41232E7D50004C56A1 /* TabBarView.swift in Sources */,
 				693148012049C9B50094595C /* FavouriteTracksController.swift in Sources */,
 				690A19AF20480A93004D2734 /* WebRequestManager.swift in Sources */,
 				693148062049DB670094595C /* FavouriteTrack.swift in Sources */,
 				69E5BE40232E7D50004C56A1 /* SceneDelegate.swift in Sources */,
+				6958FE2F23342265004434D3 /* CurrentProgramView.swift in Sources */,
 				690A19AD2048068F004D2734 /* RemoteUrls.swift in Sources */,
 				69314812204A08E70094595C /* RSSFeedController.swift in Sources */,
 				693147F8204976130094595C /* XSPFPlaylist.m in Sources */,
 				693147E92049730A0094595C /* PlaylistController.swift in Sources */,
+				695645F02334E88C0011AB8E /* FSPlaylistItem.m in Sources */,
 				690A19B520480F58004D2734 /* ProgramController.swift in Sources */,
 				690E6D52204B30AA008CDAEA /* UIFont+Extensions.swift in Sources */,
+				695645ED2334E88C0011AB8E /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,7 +811,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Hertz 87.9/Hertz-87-9-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -675,7 +834,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Hertz 87.9/Hertz-87-9-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "${SDK_DIR}/usr/include/libxml2";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

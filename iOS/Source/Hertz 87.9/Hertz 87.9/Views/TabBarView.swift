@@ -8,13 +8,22 @@
 
 import SwiftUI
 
-struct NavigationView: View {
+struct TabBarView: View {
     @State private var selection = 0
     @EnvironmentObject var appContext: AppContext
 
     var body: some View {
         TabView(selection: $selection) {
-            MainView()
+            NavigationView {
+              MainView()
+            }
+                .font(.title)
+                .tabItem {
+                    VStack {
+                        Image("first")
+                        Text("First")
+                    }
+                }
                 .tag(0)
             Text("Second View")
                 .font(.title)
@@ -26,11 +35,13 @@ struct NavigationView: View {
                 }
                 .tag(1)
         }
+          .edgesIgnoringSafeArea(.top)
+          .background(Color("bgColor"))
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView()
+        TabBarView()
     }
 }

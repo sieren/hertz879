@@ -9,37 +9,42 @@
 import SwiftUI
 import Combine
 
-struct PlayerButtonView: View {
-  @ObservedObject var streamController: StreamController
-
-  var body: some View {
-    HStack(alignment: .center) {
-      Button(action: {
-        self.streamController.setPlay(play: !self.streamController.playState)
-      }) {
-        return Image(systemName: self.streamController.playState ? "stop.circle" :  "play.circle")
-          .font(Font.system(size: 145)).foregroundColor(.black)
-      }
-    }
-  }
-}
 struct MainView: View {
     @EnvironmentObject var appContext: AppContext
-    var body: some View {
-      GeometryReader { geometry in
-        VStack {
-            Image("hertzlogo")
-              .resizable()
-              .aspectRatio(contentMode: .fit)
-              .frame(width: geometry.size.width, height: 40, alignment: .center)
-            Spacer().frame(width: geometry.size.width, height: 50, alignment: .top)
-          PlayerButtonView(streamController: self.appContext.streamController)
-          Spacer()
-          }
-      .padding()
-      }
-      }
 
+    init() {
+      UITabBar.appearance().backgroundColor = UIColor.init(named: "bgColor")
+    }
+
+    var body: some View {
+      
+        VStack/*(alignment: .leading, spacing: 0)*/ {
+          ZStack{
+            Color.black.edgesIgnoringSafeArea(.top)
+            WaveFormViewUI(streamController: appContext.streamController)
+//            CurrentProgramView()
+//              .padding()
+//              .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
+//              .background(Color.black)
+          }
+
+          Divider()
+
+          CurrentTitleView(playlistController: self.appContext.playlistController).padding()
+          Spacer()
+          PlayerView(streamController: self.appContext.streamController,
+                     playlistController: self.appContext.playlistController)
+            .frame(minHeight: 0, maxHeight: 50)
+            .edgesIgnoringSafeArea(.bottom)
+          }
+//        .navigationBarTitle("")
+ //       .navigationBarHidden(true)
+        .navigationBarItems(leading:
+          Image("hertzlogo")
+        .resizable()
+        .aspectRatio(contentMode: .fit)
+        .frame(height: 40, alignment: .center))
+      }
 }
 
 struct MainView_Previews: PreviewProvider {

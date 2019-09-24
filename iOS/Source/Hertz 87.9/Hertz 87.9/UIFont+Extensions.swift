@@ -2,6 +2,27 @@
 
 import Foundation
 import UIKit
+import SwiftUI
+
+extension Font {
+  static let regularFont = "RobotoCondensed-Regular"
+  static let boldFont = "RobotoCondensed-Bold"
+  static let condensedFont = "RobotoCondensed-Light"
+
+  static func defaultFont(size: CGFloat) -> Font {
+    return custom(regularFont, size: size)
+  }
+  
+  static func boldFont(size: CGFloat) -> Font {
+    return custom(boldFont, size: size)
+  }
+
+  static func condensedFont(size: CGFloat) -> Font {
+    return custom(condensedFont, size: size)
+  }
+}
+
+
 
 private let hertzDefaultFontDescriptor = UIFontDescriptor(
   fontAttributes: [UIFontDescriptor.AttributeName.name: "RobotoCondensed-Regular"])

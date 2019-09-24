@@ -1,10 +1,11 @@
 //  Copyright © 2018 Hertz 87.9. All rights reserved.
 
 import Foundation
+import Combine
 
 struct CurrentSong: Equatable {
-  let artist: String
-  let title: String
+  var artist: String = ""
+  var title: String = ""
 
   static func == (lhs: CurrentSong, rhs: CurrentSong) -> Bool {
     return lhs.artist == rhs.artist &&
@@ -34,13 +35,24 @@ extension XSPFTrack {
   }
 }
 
-class PlaylistController {
+class PlaylistController: ObservableObject {
   private static let kPlaylistLimit = 100
+  @Published private(set) var currentSong = CurrentSong()
+  var updateSong = PassthroughSubject<CurrentSong, Never>()
+
   var playlist: [XSPFTrack]?
   let webRequestManager: WebRequestManager!
-
   init(webRequestManager: WebRequestManager = WebRequestManager.sharedInstance) {
     self.webRequestManager = webRequestManager
+    _ = self.updateSong.receive(on: RunLoop.main).sink { (song) in
+      self.currentSong = song
+    }
+    _ = Timer.scheduledTimer(withTimeInterval: 10.0, repeats: true) { _ in
+      self.loadCurrentTitle { (currentSong, _) in
+        guard let song = currentSong else { return }
+        self.updateSong.send(song)
+      }
+    }.fire()
   }
 
   func loadSongs(for date: Date = Date(), completionHandler: PlayListCompletionHandler? = nil) {
@@ -67,11 +79,13 @@ class PlaylistController {
     webRequestManager.makeHTTPGetRequest(url: artistUrl) { (data, error) in
       if error != nil { return }
       guard let responseData = data else { return completionHandler(nil, error) }
-      guard let artist = String(data: responseData, encoding: .utf8) else { return }
+      guard let artist = String(data: responseData, encoding: .utf8)?
+        .trimmingCharacters(in: CharacterSet.newlines) else { return }
       self.webRequestManager.makeHTTPGetRequest(url: titleUrl, onCompletion: { (data, error) in
         if error != nil { return }
         guard let responseData = data else { return completionHandler(nil, error) }
-        guard let title = String(data: responseData, encoding: .utf8) else { return completionHandler(nil, error) }
+        guard let title = String(data: responseData, encoding: .utf8)?
+          .trimmingCharacters(in: CharacterSet.newlines) else { return completionHandler(nil, error) }
         completionHandler(CurrentSong(artist: artist, title: title), error)
       })
     }
